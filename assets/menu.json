@@ -1,0 +1,627 @@
+{
+"skeleton": { "hash": "m6UR5CVURE0", "spine": "4.1.24", "x": -640, "y": -360, "width": 1280, "height": 720 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "path_pallini_LS", "parent": "root" },
+	{ "name": "p1", "parent": "root", "x": 462.8, "y": 188.24 },
+	{ "name": "p2", "parent": "root", "x": 462.8, "y": 188.24 },
+	{ "name": "p3", "parent": "root", "x": 462.8, "y": 188.24 },
+	{ "name": "p4", "parent": "root", "x": 462.8, "y": 188.24 },
+	{ "name": "p5", "parent": "root", "x": 462.8, "y": 188.24 },
+	{ "name": "shadow_autoplay", "parent": "root" },
+	{ "name": "numero1", "parent": "p1" },
+	{ "name": "numero2", "parent": "p2" },
+	{ "name": "numero3", "parent": "p3" },
+	{ "name": "numero4", "parent": "p4" },
+	{ "name": "numero5", "parent": "p5" },
+	{ "name": "pathpallini_PT", "parent": "root" },
+	{ "name": "shadow_bet", "parent": "shadow_autoplay" }
+],
+"slots": [
+	{ "name": "prova_menu_autoplay", "bone": "root" },
+	{ "name": "path_pallini_LS", "bone": "path_pallini_LS", "attachment": "path_pallini1" },
+	{ "name": "shadow_autoplay", "bone": "shadow_autoplay" },
+	{ "name": "pulsante_neutro_124", "bone": "p5" },
+	{ "name": "14", "bone": "numero5" },
+	{ "name": "pulsante_neutro_123", "bone": "p4" },
+	{ "name": "13", "bone": "numero4" },
+	{ "name": "pulsante_neutro_122", "bone": "p3" },
+	{ "name": "12", "bone": "numero3" },
+	{ "name": "pulsante_neutro_121", "bone": "p2" },
+	{ "name": "11", "bone": "numero2" },
+	{ "name": "pulsante_neutro_120", "bone": "p1" },
+	{ "name": "10", "bone": "numero1" },
+	{ "name": "pathpallini_PT", "bone": "pathpallini_PT", "attachment": "pathpallini_PT1" },
+	{ "name": "menu_bet_shadow", "bone": "shadow_bet" }
+],
+"path": [
+	{
+		"name": "pathpallini_PT1",
+		"order": 9,
+		"bones": [ "p1" ],
+		"target": "pathpallini_PT",
+		"mixRotate": 0
+	},
+	{
+		"name": "pathpallini_PT2",
+		"order": 8,
+		"bones": [ "p2" ],
+		"target": "pathpallini_PT",
+		"mixRotate": 0
+	},
+	{
+		"name": "pathpallini_PT3",
+		"order": 7,
+		"bones": [ "p3" ],
+		"target": "pathpallini_PT",
+		"mixRotate": 0
+	},
+	{
+		"name": "pathpallini_PT4",
+		"order": 6,
+		"bones": [ "p4" ],
+		"target": "pathpallini_PT",
+		"mixRotate": 0
+	},
+	{
+		"name": "pathpallini_PT5",
+		"order": 5,
+		"bones": [ "p5" ],
+		"target": "pathpallini_PT",
+		"mixRotate": 0
+	},
+	{
+		"name": "path_pallini1",
+		"bones": [ "p1" ],
+		"target": "path_pallini_LS",
+		"mixRotate": 0
+	},
+	{
+		"name": "path_pallini2",
+		"order": 1,
+		"bones": [ "p2" ],
+		"target": "path_pallini_LS",
+		"mixRotate": 0
+	},
+	{
+		"name": "path_pallini3",
+		"order": 2,
+		"bones": [ "p3" ],
+		"target": "path_pallini_LS",
+		"mixRotate": 0
+	},
+	{
+		"name": "path_pallini4",
+		"order": 3,
+		"bones": [ "p4" ],
+		"target": "path_pallini_LS",
+		"mixRotate": 0
+	},
+	{
+		"name": "path_pallini5",
+		"order": 4,
+		"bones": [ "p5" ],
+		"target": "path_pallini_LS",
+		"mixRotate": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"10": {
+				"10": { "width": 48, "height": 22 }
+			},
+			"11": {
+				"50": { "width": 48, "height": 22 }
+			},
+			"12": {
+				"100": { "width": 48, "height": 22 }
+			},
+			"13": {
+				"200": { "width": 48, "height": 22 }
+			},
+			"14": {
+				"infinto": { "width": 48, "height": 22 }
+			},
+			"menu_bet_shadow": {
+				"menu_bet_shadow": { "x": 0.5, "y": 0.5, "width": 731, "height": 795 }
+			},
+			"pathpallini_PT": {
+				"pathpallini_PT1": {
+					"type": "path",
+					"lengths": [ 254.39, 516.25, 981.18 ],
+					"vertexCount": 9,
+					"vertices": [ -153.21, -533.37, -163.36, -451.87, -175.03, -358.22, -93.74, -269.46, -36, -248.48, 33.17, -223.34, 150.76, -218.96, 216.26, -270.81, 309.51, -344.62 ]
+				},
+				"pathpallini_PT2": {
+					"type": "path",
+					"lengths": [ 246.78, 499.95, 928.44 ],
+					"vertexCount": 9,
+					"vertices": [ -211.22, -108.57, -202.25, -190.21, -191.68, -286.36, -168.77, -363.25, -101.13, -406.35, -29.71, -451.85, 32.85, -456.91, 130.81, -379.8, 224.27, -306.25 ]
+				},
+				"pathpallini_PT3": {
+					"type": "path",
+					"lengths": [ 246.78, 499.95, 928.44 ],
+					"vertexCount": 9,
+					"vertices": [ -211.22, -108.57, -202.25, -190.21, -191.68, -286.36, -168.77, -363.25, -101.13, -406.35, -29.71, -451.85, 32.85, -456.91, 130.81, -379.8, 224.27, -306.25 ]
+				},
+				"pathpallini_PT4": {
+					"type": "path",
+					"lengths": [ 246.78, 499.95, 928.44 ],
+					"vertexCount": 9,
+					"vertices": [ -211.22, -108.57, -202.25, -190.21, -191.68, -286.36, -168.77, -363.25, -101.13, -406.35, -29.71, -451.85, 32.85, -456.91, 130.81, -379.8, 224.27, -306.25 ]
+				},
+				"pathpallini_PT5": {
+					"type": "path",
+					"lengths": [ 246.78, 499.95, 928.44 ],
+					"vertexCount": 9,
+					"vertices": [ -211.22, -108.57, -202.25, -190.21, -191.68, -286.36, -168.77, -363.25, -101.13, -406.35, -29.71, -451.85, 32.85, -456.91, 130.81, -379.8, 224.27, -306.25 ]
+				}
+			},
+			"path_pallini_LS": {
+				"path_pallini1": {
+					"type": "path",
+					"lengths": [ 506.87, 998.01 ],
+					"vertexCount": 6,
+					"vertices": [ 636.85, 188.86, 558.88, 168.96, 275.36, 96.62, 147.84, 185.23, 85.33, 256.65, 33.55, 315.82 ]
+				},
+				"path_pallini2": {
+					"type": "path",
+					"lengths": [ 496.41, 987.56 ],
+					"vertexCount": 6,
+					"vertices": [ 641.69, 192.89, 561.31, 189.2, 307.74, 177.55, 164.03, 251.6, 90.19, 310.88, 28.88, 360.1 ]
+				},
+				"path_pallini3": {
+					"type": "path",
+					"lengths": [ 496.41, 987.56 ],
+					"vertexCount": 6,
+					"vertices": [ 641.69, 192.89, 561.31, 189.2, 307.74, 177.55, 164.03, 251.6, 90.19, 310.88, 28.88, 360.1 ]
+				},
+				"path_pallini4": {
+					"type": "path",
+					"lengths": [ 496.41, 987.56 ],
+					"vertexCount": 6,
+					"vertices": [ 641.69, 192.89, 561.31, 189.2, 307.74, 177.55, 164.03, 251.6, 90.19, 310.88, 28.88, 360.1 ]
+				},
+				"path_pallini5": {
+					"type": "path",
+					"lengths": [ 496.41, 987.56 ],
+					"vertexCount": 6,
+					"vertices": [ 641.69, 192.89, 561.31, 189.2, 307.74, 177.55, 164.03, 251.6, 90.19, 310.88, 28.88, 360.1 ]
+				}
+			},
+			"pulsante_neutro_120": {
+				"pulsante_neutro_120": { "width": 120, "height": 120 }
+			},
+			"pulsante_neutro_121": {
+				"pulsante_neutro_120": { "width": 120, "height": 120 }
+			},
+			"pulsante_neutro_122": {
+				"pulsante_neutro_120": { "width": 120, "height": 120 }
+			},
+			"pulsante_neutro_123": {
+				"pulsante_neutro_120": { "width": 120, "height": 120 }
+			},
+			"pulsante_neutro_124": {
+				"pulsante_neutro_120": { "width": 120, "height": 120 }
+			},
+			"shadow_autoplay": {
+				"menu_auto_shadow_LS": { "x": 229.79, "y": 189.71, "width": 820, "height": 340 },
+				"menu_auto_shadow_PT": { "width": 526, "height": 446 }
+			}
+		}
+	}
+],
+"animations": {
+	"comparsa_menu_LS": {
+		"slots": {
+			"10": {
+				"attachment": [
+					{ "name": "10" }
+				]
+			},
+			"11": {
+				"attachment": [
+					{ "name": "50" }
+				]
+			},
+			"12": {
+				"attachment": [
+					{ "name": "100" }
+				]
+			},
+			"13": {
+				"attachment": [
+					{ "name": "200" }
+				]
+			},
+			"14": {
+				"attachment": [
+					{ "name": "infinto" }
+				]
+			},
+			"pathpallini_PT": {
+				"attachment": [
+					{}
+				]
+			},
+			"pulsante_neutro_120": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_121": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_122": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_123": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_124": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"shadow_autoplay": {
+				"attachment": [
+					{ "name": "menu_auto_shadow_LS" }
+				]
+			}
+		},
+		"bones": {
+			"shadow_autoplay": {
+				"translate": [
+					{
+						"x": 236.47,
+						"y": 261.86,
+						"curve": [ 0, 94.84, 0.2, 0, 0, 105.02, 0.2, 0 ]
+					},
+					{ "time": 0.2667 }
+				]
+			},
+			"p5": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p4": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p3": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p2": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p1": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			}
+		},
+		"path": {
+			"path_pallini1": {
+				"position": [
+					{
+						"curve": [ 0, 0.1199, 0.2, 0.2002 ]
+					},
+					{ "time": 0.2667, "value": 0.2002 }
+				]
+			},
+			"path_pallini2": {
+				"position": [
+					{
+						"curve": [ 0, 0.2392, 0.2, 0.3993 ]
+					},
+					{ "time": 0.2667, "value": 0.3993 }
+				]
+			},
+			"path_pallini3": {
+				"position": [
+					{
+						"curve": [ 0, 0.3604, 0.2, 0.6007 ]
+					},
+					{ "time": 0.2667, "value": 0.6007 }
+				]
+			},
+			"path_pallini4": {
+				"position": [
+					{
+						"curve": [ 0, 0.4805, 0.2, 0.8022 ]
+					},
+					{ "time": 0.2667, "value": 0.8022 }
+				]
+			},
+			"path_pallini5": {
+				"position": [
+					{
+						"curve": [ 0, 0.6, 0.2, 1 ]
+					},
+					{ "time": 0.2667, "value": 1 }
+				]
+			}
+		}
+	},
+	"comparsa_menu_PT": {
+		"slots": {
+			"10": {
+				"attachment": [
+					{ "name": "10" }
+				]
+			},
+			"11": {
+				"attachment": [
+					{ "name": "50" }
+				]
+			},
+			"12": {
+				"attachment": [
+					{ "name": "100" }
+				]
+			},
+			"13": {
+				"attachment": [
+					{ "name": "200" }
+				]
+			},
+			"14": {
+				"attachment": [
+					{ "name": "infinto" }
+				]
+			},
+			"path_pallini_LS": {
+				"attachment": [
+					{}
+				]
+			},
+			"prova_menu_autoplay": {
+				"attachment": [
+					{}
+				]
+			},
+			"pulsante_neutro_120": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_121": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_122": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_123": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"pulsante_neutro_124": {
+				"attachment": [
+					{ "name": "pulsante_neutro_120" }
+				]
+			},
+			"shadow_autoplay": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "menu_auto_shadow_PT" }
+				]
+			}
+		},
+		"bones": {
+			"p1": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p2": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p3": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p4": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"p5": {
+				"scale": [
+					{ "x": 0.85, "y": 0.85 }
+				]
+			},
+			"shadow_autoplay": {
+				"rotate": [
+					{ "value": -151.16 }
+				],
+				"translate": [
+					{ "x": 24.35, "y": -350.13 }
+				],
+				"scale": [
+					{ "x": 0.862, "y": 0.862 },
+					{ "time": 0.2667, "x": 0.847, "y": 0.847 }
+				]
+			}
+		},
+		"path": {
+			"pathpallini_PT1": {
+				"position": [
+					{
+						"curve": [ 0, 0.1209, 0.2, 0.2015 ]
+					},
+					{ "time": 0.2667, "value": 0.2015 }
+				]
+			},
+			"pathpallini_PT2": {
+				"position": [
+					{
+						"curve": [ 0, 0.2388, 0.2, 0.398 ]
+					},
+					{ "time": 0.2667, "value": 0.398 }
+				]
+			},
+			"pathpallini_PT3": {
+				"position": [
+					{
+						"curve": [ 0, 0.3597, 0.2, 0.5995 ]
+					},
+					{ "time": 0.2667, "value": 0.5995 }
+				]
+			},
+			"pathpallini_PT4": {
+				"position": [
+					{
+						"curve": [ 0, 0.483, 0.2, 0.8035 ]
+					},
+					{ "time": 0.2667, "value": 0.8035 }
+				]
+			},
+			"pathpallini_PT5": {
+				"position": [
+					{
+						"curve": [ 0, 0.6, 0.2, 1 ]
+					},
+					{ "time": 0.2667, "value": 1 }
+				]
+			}
+		}
+	},
+	"ingresso_menu_bet_LS": {
+		"slots": {
+			"menu_bet_shadow": {
+				"attachment": [
+					{ "name": "menu_bet_shadow" }
+				]
+			},
+			"prova_menu_autoplay": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"shadow_bet": {
+				"translate": [
+					{
+						"x": 989.34,
+						"y": 36.62,
+						"curve": [ 0, 560.64, 0.2, 274.16, 0, 36.62, 0.2, 36.62 ]
+					},
+					{ "time": 0.2667, "x": 274.16, "y": 36.62 }
+				]
+			}
+		}
+	},
+	"ingresso_menu_bet_PT": {
+		"slots": {
+			"menu_bet_shadow": {
+				"attachment": [
+					{ "name": "menu_bet_shadow" }
+				]
+			},
+			"prova_menu_autoplay": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"shadow_bet": {
+				"translate": [
+					{
+						"x": 670.28,
+						"y": -244.28,
+						"curve": [ 0, 267.41, 0.2, -5.01, 0, -244.28, 0.2, -244.28 ]
+					},
+					{ "time": 0.2667, "x": -5.01, "y": -244.28 }
+				]
+			}
+		}
+	},
+	"uscita_menu_bet_LS": {
+		"slots": {
+			"menu_bet_shadow": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "menu_bet_shadow" }
+				]
+			},
+			"prova_menu_autoplay": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"shadow_bet": {
+				"translate": [
+					{
+						"x": 274.16,
+						"y": 36.62,
+						"curve": [ 0, 702.18, 0.2, 989.34, 0, 36.62, 0.2, 36.62 ]
+					},
+					{ "time": 0.2667, "x": 989.34, "y": 36.62 }
+				]
+			}
+		}
+	},
+	"uscita_menu_bet_PT": {
+		"slots": {
+			"menu_bet_shadow": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "menu_bet_shadow" }
+				]
+			},
+			"prova_menu_autoplay": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"shadow_bet": {
+				"translate": [
+					{
+						"x": -5.01,
+						"y": -244.28,
+						"curve": [ 0, 397.86, 0.2, 670.28, 0, -244.28, 0.2, -244.28 ]
+					},
+					{ "time": 0.2667, "x": 670.28, "y": -244.28 }
+				]
+			}
+		}
+	}
+}
+}

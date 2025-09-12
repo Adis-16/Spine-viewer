@@ -1,0 +1,298 @@
+Lucky_China.webp
+	size: 2045, 2003
+	filter: Linear, Linear
+	pma: true
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0001
+	bounds: 99, 1949, 82, 52
+	offsets: 32, 72, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0002
+	bounds: 2, 1951, 95, 50
+	offsets: 17, 74, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0003
+	bounds: 863, 1921, 110, 80
+	offsets: 8, 44, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0004
+	bounds: 1663, 1789, 116, 108
+	offsets: 8, 16, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0005
+	bounds: 2, 1840, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0006
+	bounds: 127, 1836, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0007
+	bounds: 252, 1816, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0008
+	bounds: 377, 1816, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0009
+	bounds: 502, 1816, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0010
+	bounds: 627, 1816, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0011
+	bounds: 752, 1812, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0012
+	bounds: 877, 1811, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0013
+	bounds: 1002, 1795, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0014
+	bounds: 1127, 1795, 123, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0015
+	bounds: 1451, 1899, 123, 102
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0016
+	bounds: 1326, 1901, 123, 100
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0017
+	bounds: 1252, 1792, 120, 107
+	offsets: 8, 17, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0018
+	bounds: 1858, 1898, 103, 107
+	offsets: 8, 17, 140, 140
+	rotate: 90
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0019
+	bounds: 975, 1920, 81, 108
+	offsets: 8, 16, 140, 140
+	rotate: 90
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0020
+	bounds: 274, 1925, 94, 76
+	offsets: 8, 48, 140, 140
+EFFETTO_CIRCLE_SIMBOLI/light_circle_0021
+	bounds: 183, 1945, 89, 56
+	offsets: 11, 68, 140, 140
+TAO/bagliore_espansione
+	bounds: 457, 1654, 160, 195
+	rotate: 90
+TAO/tao_black_LD
+	bounds: 2, 1110, 192, 258
+	rotate: 90
+TAO/tao_white_LD
+	bounds: 1599, 1229, 191, 260
+	rotate: 90
+coin/coin_off
+	bounds: 1474, 2, 215, 258
+	offsets: 20, 0, 260, 260
+	rotate: 90
+coin/coin_on
+	bounds: 1734, 2, 215, 258
+	offsets: 20, 0, 260, 260
+	rotate: 90
+cornici_simboli_animati_0001
+	bounds: 184, 1304, 186, 206
+	rotate: 90
+fx/energy04/energy_04_0000
+	bounds: 1845, 1604, 180, 180
+fx/energy04/energy_04_0001
+	bounds: 2, 1541, 180, 180
+fx/energy04/energy_04_0002
+	bounds: 407, 1472, 180, 180
+fx/energy04/energy_04_0003
+	bounds: 589, 1465, 180, 180
+fx/energy04/energy_04_0004
+	bounds: 771, 1448, 180, 180
+fx/energy04/energy_04_0005
+	bounds: 953, 1445, 180, 180
+fx/energy04/energy_04_0006
+	bounds: 1135, 1445, 180, 180
+fx/energy04/energy_04_0007
+	bounds: 1317, 1436, 180, 180
+fx/energy04/energy_04_0008
+	bounds: 1499, 1432, 180, 180
+fx/energy04/energy_04_0009
+	bounds: 1681, 1422, 180, 180
+fx/energy04/energy_04_0010
+	bounds: 1863, 1422, 180, 180
+fx/energy04/energy_04_0011
+	bounds: 2, 1359, 180, 180
+fx/fire_bg_nero/fire_00001
+	bounds: 262, 1071, 240, 200
+fx/fire_bg_nero/fire_00002
+	bounds: 1506, 1027, 240, 200
+fx/fire_bg_nero/fire_00003
+	bounds: 1748, 1027, 240, 200
+fx/fire_bg_nero/fire_00004
+	bounds: 2, 908, 240, 200
+fx/fire_bg_nero/fire_00005
+	bounds: 244, 869, 240, 200
+fx/fire_bg_nero/fire_00006
+	bounds: 486, 860, 240, 200
+fx/fire_bg_nero/fire_00007
+	bounds: 728, 860, 240, 200
+fx/fire_bg_nero/fire_00008
+	bounds: 970, 860, 240, 200
+fx/fire_bg_nero/fire_00009
+	bounds: 1212, 860, 240, 200
+fx/fire_bg_nero/fire_00010
+	bounds: 1454, 825, 240, 200
+fx/fire_bg_nero/fire_00011
+	bounds: 1696, 825, 240, 200
+fx/fire_bg_nero/fire_00012
+	bounds: 2, 706, 240, 200
+fx/fire_bg_nero/fire_00013
+	bounds: 244, 667, 240, 200
+fx/fire_bg_nero/fire_00014
+	bounds: 486, 658, 240, 200
+fx/fire_bg_nero/fire_00015
+	bounds: 728, 658, 240, 200
+fx/fire_bg_nero/fire_00016
+	bounds: 970, 658, 240, 200
+fx/fire_bg_nero/fire_00017
+	bounds: 1212, 658, 240, 200
+fx/fire_bg_nero/fire_00018
+	bounds: 1454, 623, 240, 200
+fx/fire_bg_nero/fire_00019
+	bounds: 1696, 623, 240, 200
+fx/fire_bg_nero/fire_00020
+	bounds: 2, 504, 240, 200
+fx/fire_bg_nero/fire_00021
+	bounds: 244, 465, 240, 200
+fx/fire_bg_nero/fire_00022
+	bounds: 486, 456, 240, 200
+fx/fire_bg_nero/fire_00023
+	bounds: 728, 456, 240, 200
+fx/fire_bg_nero/fire_00024
+	bounds: 970, 456, 240, 200
+fx/fire_bg_nero/fire_00025
+	bounds: 1212, 456, 240, 200
+fx/fire_bg_nero/fire_00026
+	bounds: 1454, 421, 240, 200
+fx/fire_bg_nero/fire_00027
+	bounds: 1696, 421, 240, 200
+fx/fire_bg_nero/fire_00028
+	bounds: 2, 302, 240, 200
+fx/fire_bg_nero/fire_00029
+	bounds: 244, 263, 240, 200
+fx/fire_bg_nero/fire_00030
+	bounds: 486, 254, 240, 200
+fx/fire_bg_nero/fire_00031
+	bounds: 728, 254, 240, 200
+fx/fire_bg_nero/fire_00032
+	bounds: 970, 254, 240, 200
+fx/fire_bg_nero/fire_00033
+	bounds: 1212, 254, 240, 200
+fx/fire_bg_nero/fire_00034
+	bounds: 1454, 219, 240, 200
+fx/fire_bg_nero/fire_00035
+	bounds: 1696, 219, 240, 200
+fx/fire_bg_nero/fire_00036
+	bounds: 2, 100, 240, 200
+fx/fire_bg_nero/fire_00037
+	bounds: 244, 61, 240, 200
+fx/fire_bg_nero/fire_00038
+	bounds: 486, 52, 240, 200
+fx/fire_bg_nero/fire_00039
+	bounds: 728, 52, 240, 200
+fx/fire_bg_nero/fire_00040
+	bounds: 970, 52, 240, 200
+lanterne/lanterna_dx
+	bounds: 2, 1723, 111, 191
+	rotate: 90
+lanterne/lanterna_sx
+	bounds: 1781, 1786, 110, 196
+	rotate: 90
+letters/A_off
+	bounds: 392, 1273, 190, 224
+	offsets: 35, 15, 260, 260
+	rotate: 90
+letters/J_ON
+	bounds: 195, 1669, 145, 260
+	offsets: 58, 0, 260, 260
+	rotate: 90
+letters/J_off
+	bounds: 1085, 1904, 97, 239
+	offsets: 81, 8, 260, 260
+	rotate: 90
+letters/K_off
+	bounds: 184, 1492, 175, 221
+	offsets: 53, 21, 260, 260
+	rotate: 90
+letters/Q_off
+	bounds: 654, 1647, 162, 236
+	offsets: 49, 9, 260, 260
+	rotate: 90
+letters/Q_on
+	bounds: 1212, 6, 211, 260
+	offsets: 25, 0, 260, 260
+	rotate: 90
+letters/x2_off
+	bounds: 892, 1630, 230, 163
+	offsets: 13, 44, 260, 260
+letters/x2_on
+	bounds: 1357, 1618, 242, 170
+	offsets: 8, 43, 260, 260
+letters/x3_off
+	bounds: 1124, 1627, 231, 163
+	offsets: 13, 44, 260, 260
+letters/x3_on
+	bounds: 1601, 1614, 242, 170
+	offsets: 8, 43, 260, 260
+logo/logo
+	bounds: 370, 1925, 491, 76
+	offsets: 6, 2, 500, 82
+scatter/LD/scatter_text
+	bounds: 1576, 1899, 280, 102
+scritte/bonus_tao
+	bounds: 618, 1258, 979, 172
+scritte/freespin
+	bounds: 504, 1062, 1000, 194
+wild/wild_text
+	bounds: 1374, 1790, 287, 107
+	offsets: 1, 1, 289, 109
+
+Lucky_China_2.webp
+	size: 1985, 1362
+	filter: Linear, Linear
+	pma: true
+TAO/tao_LD
+	bounds: 1652, 500, 260, 262
+	rotate: 90
+TAO/tao_fx
+	bounds: 1163, 559, 487, 491
+	offsets: 36, 30, 560, 550
+fx/bagliore1
+	bounds: 2, 448, 597, 545
+	offsets: 1, 0, 600, 545
+letters/A_ON
+	bounds: 1206, 61, 234, 260
+	offsets: 13, 0, 260, 260
+	rotate: 90
+letters/K_on
+	bounds: 1730, 238, 222, 260
+	offsets: 28, 0, 260, 260
+loto/loto_off
+	bounds: 1206, 297, 260, 260
+loto/loto_on
+	bounds: 1468, 238, 260, 260
+panda/panda
+	bounds: 1468, 2, 260, 234
+scatter/HD/scatter_bg
+	bounds: 601, 449, 560, 544
+scritte/bonus_tao_lightrays
+	bounds: 804, 1052, 800, 308
+scritte/freespin_lightrays
+	bounds: 2, 995, 800, 365
+ventaglio
+	bounds: 1730, 6, 230, 253
+	offsets: 15, 0, 260, 260
+	rotate: 90
+wild/wild_bg
+	bounds: 2, 138, 308, 600
+	offsets: 1, 1, 310, 602
+	rotate: 90
+wild/wild_bg_light
+	bounds: 604, 139, 308, 600
+	offsets: 1, 1, 310, 602
+	rotate: 90
+wild/wild_body
+	bounds: 1606, 1052, 308, 352
+	offsets: 1, 1, 310, 354
+	rotate: 90
+wild/wild_head
+	bounds: 1652, 762, 264, 288

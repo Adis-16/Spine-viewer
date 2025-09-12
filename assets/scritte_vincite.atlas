@@ -1,0 +1,41 @@
+scritte_vincite.webp
+	size: 1921, 1545
+	filter: Linear, Linear
+	pma: true
+scritte_vincite/bagliore1
+	bounds: 982, 377, 597, 545
+	offsets: 1, 0, 600, 545
+scritte_vincite/bagliore_star
+	bounds: 2, 42, 577, 585
+	rotate: 90
+scritte_vincite/big
+	bounds: 751, 1242, 552, 301
+	offsets: 40, 0, 605, 325
+scritte_vincite/epic
+	bounds: 14, 1250, 735, 293
+	offsets: 38, 7, 782, 325
+scritte_vincite/mega
+	bounds: 1012, 924, 896, 316
+	offsets: 119, 0, 1035, 324
+scritte_vincite/nero
+	bounds: 2, 1533, 10, 10
+scritte_vincite/pannello
+	bounds: 589, 2, 1330, 373
+	offsets: 8, 0, 1347, 374
+scritte_vincite/super
+	bounds: 2, 939, 1008, 301
+	offsets: 82, 2, 1095, 325
+scritte_vincite/total
+	bounds: 2, 621, 978, 316
+	offsets: 149, 1, 1131, 325
+scritte_vincite/win
+	bounds: 1305, 1242, 600, 301
+	offsets: 8, 0, 749, 324
+
+scritte_vincite_2.webp
+	size: 1924, 926
+	filter: Linear, Linear
+	pma: true
+scritte_vincite/bollo_rosso
+	bounds: 2, 2, 1920, 922
+	offsets: 0, 0, 1920, 935

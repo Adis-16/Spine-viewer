@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spine Player</title>
+
+    <script>
+      const spineVersion = "4.2";
+      const spineJS = `https://unpkg.com/@esotericsoftware/spine-player@${spineVersion}/dist/iife/spine-player.js`;
+      const spineCSS = `https://unpkg.com/@esotericsoftware/spine-player@${spineVersion}/dist/spine-player.css`;
+
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = spineCSS;
+      document.head.appendChild(link);
+
+      const script = document.createElement("script");
+      script.src = spineJS;
+      document.head.appendChild(script);
+    </script>
+
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      #player-container {
+        width: 100%;
+        height: 100vh;
+      }
+      #spineSelector {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <select id="spineSelector"></select>
+    <div id="player-container"></div>
+    <script>
+      let player;
+
+      function loadSpine(config) {
+        const container = document.getElementById("player-container");
+        container.innerHTML = "";
+        player = new spine.SpinePlayer("player-container", {
+          skeleton: config.skeleton,
+          atlas: config.atlas,
+        });
+      }
+
+      fetch("/list")
+        .then((res) => res.json())
+        .then((files) => {
+          const select = document.getElementById("spineSelector");
+          files.forEach((f) => {
+            const option = document.createElement("option");
+            option.value = f.name;
+            option.textContent = f.name;
+            option.dataset.skeleton = f.skeleton;
+            option.dataset.atlas = f.atlas;
+            select.appendChild(option);
+          });
+
+          if (files.length > 0) {
+            loadSpine(files[0]);
+          }
+
+          select.addEventListener("change", function () {
+            const opt = this.selectedOptions[0];
+            loadSpine({
+              skeleton: opt.dataset.skeleton,
+              atlas: opt.dataset.atlas,
+            });
+          });
+        });
+    </script>
+  </body>
+</html>

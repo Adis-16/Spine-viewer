@@ -1,0 +1,1665 @@
+SPINE-ARES-ONLINE_POWERSPIN.webp
+	size: 2048, 2046
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+10
+	bounds: 49, 2036, 12, 9
+	offsets: 3, 0, 19, 9
+100
+	bounds: 62, 2036, 19, 9
+200
+	bounds: 82, 2036, 19, 9
+50
+	bounds: 102, 2036, 13, 9
+	offsets: 3, 0, 19, 9
+ELEMENTI-COMUNI/bagliore_cometa
+	bounds: 723, 1361, 357, 67
+	offsets: 3, 2, 360, 72
+ELEMENTI-COMUNI/cerchio-fuoco-3-sfoca
+	bounds: 1710, 1913, 68, 63
+	offsets: 17, 15, 102, 91
+ELEMENTI-COMUNI/cerchio-fuoco-arancio
+	bounds: 1935, 1567, 102, 100
+	offsets: 19, 15, 131, 131
+ELEMENTI-COMUNI/punto-luce
+	bounds: 76, 1992, 43, 44
+	offsets: 1, 0, 45, 45
+	rotate: 90
+ELEMENTI-COMUNI/rettangolo-1
+	bounds: 1819, 1100, 123, 104
+FRAME/decorazione-suspance
+	bounds: 1866, 1205, 160, 78
+	offsets: 1, 0, 162, 99
+FRAME/frame-lunimoso-suspance
+	bounds: 243, 887, 94, 334
+	offsets: 17, 17, 128, 368
+	rotate: 90
+FRAME/frame-suspance
+	bounds: 269, 982, 80, 316
+	offsets: 0, 2, 80, 320
+	rotate: 90
+LOCK-SPIN/thunder-LOCK_SPIN
+	bounds: 1589, 1267, 79, 132
+	offsets: 8, 7, 96, 145
+	rotate: 90
+LOGO/additivo-ala
+	bounds: 38, 1998, 37, 37
+	offsets: 11, 10, 54, 47
+LOGO/additivo-logo
+	bounds: 1910, 2011, 108, 34
+	offsets: 3, 0, 114, 36
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-1
+	bounds: 1073, 1037, 77, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-10
+	bounds: 1166, 1201, 74, 267
+	offsets: 5, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-11
+	bounds: 1334, 1115, 76, 267
+	offsets: 4, 0, 87, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-12
+	bounds: 1, 1098, 76, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-13
+	bounds: 269, 1077, 76, 267
+	offsets: 3, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-14
+	bounds: 1434, 1192, 74, 267
+	offsets: 3, 0, 87, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-15
+	bounds: 1321, 1276, 73, 267
+	offsets: 3, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-16
+	bounds: 1, 1250, 73, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-17
+	bounds: 666, 1288, 72, 267
+	offsets: 5, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-18
+	bounds: 1081, 1358, 69, 267
+	offsets: 6, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-19
+	bounds: 1349, 1350, 69, 267
+	offsets: 6, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-2
+	bounds: 1341, 1037, 77, 267
+	offsets: 3, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-20
+	bounds: 1, 1324, 70, 267
+	offsets: 5, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-21
+	bounds: 269, 1303, 70, 267
+	offsets: 5, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-22
+	bounds: 1, 1175, 74, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-23
+	bounds: 1609, 1022, 77, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-24
+	bounds: 1, 1020, 77, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-3
+	bounds: 537, 1063, 76, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-4
+	bounds: 805, 1059, 76, 267
+	offsets: 3, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-5
+	bounds: 269, 1154, 74, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-6
+	bounds: 269, 1229, 73, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-7
+	bounds: 537, 1140, 74, 267
+	offsets: 4, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-8
+	bounds: 898, 1211, 73, 267
+	offsets: 6, 0, 88, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-9
+	bounds: 805, 1136, 74, 267
+	offsets: 5, 0, 87, 267
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_000
+	bounds: 1861, 1975, 35, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_001
+	bounds: 1, 1944, 35, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_002
+	bounds: 146, 1944, 35, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_003
+	bounds: 1136, 1978, 34, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_004
+	bounds: 1281, 1978, 34, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_005
+	bounds: 1620, 2012, 33, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_006
+	bounds: 1765, 2012, 33, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_007
+	bounds: 121, 1980, 33, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_008
+	bounds: 266, 1980, 33, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_009
+	bounds: 411, 1980, 33, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_010
+	bounds: 556, 1980, 33, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_011
+	bounds: 1426, 1978, 34, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_012
+	bounds: 1571, 1977, 34, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_013
+	bounds: 701, 1980, 33, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_014
+	bounds: 846, 1980, 33, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_015
+	bounds: 1201, 2013, 32, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_016
+	bounds: 192, 2014, 31, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_017
+	bounds: 337, 2014, 31, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_018
+	bounds: 482, 2014, 31, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_019
+	bounds: 627, 2014, 31, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_020
+	bounds: 772, 2014, 31, 144
+	offsets: 3, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_021
+	bounds: 991, 1980, 33, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_022
+	bounds: 1716, 1977, 34, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_023
+	bounds: 291, 1944, 35, 144
+	offsets: 2, 0, 40, 144
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_48
+	bounds: 1237, 54, 205, 140
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_49
+	bounds: 1, 1, 203, 140
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_88
+	bounds: 1793, 85, 207, 130
+	offsets: 33, 0, 280, 160
+PARTICELLARI/SCINTILLE/scintille_stage_0001
+	bounds: 606, 610, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0002
+	bounds: 812, 610, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0003
+	bounds: 1018, 608, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0004
+	bounds: 1224, 608, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0005
+	bounds: 1663, 608, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0006
+	bounds: 1430, 582, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0007
+	bounds: 1, 529, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0008
+	bounds: 207, 516, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0009
+	bounds: 413, 481, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0010
+	bounds: 619, 481, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0011
+	bounds: 825, 479, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0012
+	bounds: 1031, 479, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0013
+	bounds: 1636, 479, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0014
+	bounds: 1842, 474, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0015
+	bounds: 1389, 453, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0016
+	bounds: 1, 400, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0017
+	bounds: 207, 387, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0018
+	bounds: 413, 352, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0019
+	bounds: 619, 352, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0020
+	bounds: 825, 350, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0021
+	bounds: 1031, 350, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0022
+	bounds: 1595, 350, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0023
+	bounds: 1801, 345, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0024
+	bounds: 1237, 324, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0025
+	bounds: 1, 271, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0026
+	bounds: 207, 258, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0027
+	bounds: 413, 223, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0028
+	bounds: 619, 223, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0029
+	bounds: 825, 221, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0030
+	bounds: 1031, 221, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0031
+	bounds: 1587, 221, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0032
+	bounds: 1793, 216, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0033
+	bounds: 1237, 195, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0034
+	bounds: 1, 142, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0035
+	bounds: 207, 129, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0036
+	bounds: 413, 94, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0037
+	bounds: 619, 94, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0038
+	bounds: 825, 92, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0039
+	bounds: 1031, 92, 128, 205
+	rotate: 90
+PARTICELLARI/SCINTILLE/scintille_stage_0040
+	bounds: 1587, 92, 128, 205
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_00
+	bounds: 1, 2044, 1, 1
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_01
+	bounds: 362, 1866, 77, 73
+	offsets: 90, 168, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_02
+	bounds: 1935, 1752, 98, 82
+	offsets: 70, 163, 200, 280
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_03
+	bounds: 1702, 1136, 116, 101
+	offsets: 52, 145, 200, 280
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_04
+	bounds: 1877, 979, 123, 120
+	offsets: 46, 126, 200, 280
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_05
+	bounds: 1869, 603, 133, 138
+	offsets: 36, 109, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_06
+	bounds: 1237, 464, 143, 151
+	offsets: 27, 96, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_07
+	bounds: 1443, 293, 143, 159
+	offsets: 27, 89, 200, 280
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_08
+	bounds: 1443, 118, 143, 174
+	offsets: 27, 73, 200, 280
+PARTICELLARI/sun5/sun5_0000
+	bounds: 1, 899, 120, 120
+PARTICELLARI/sun5/sun5_0001
+	bounds: 122, 899, 120, 120
+PARTICELLARI/sun5/sun5_0002
+	bounds: 1807, 858, 120, 120
+PARTICELLARI/sun5/sun5_0003
+	bounds: 1583, 832, 120, 120
+PARTICELLARI/sun5/sun5_0004
+	bounds: 453, 766, 120, 120
+PARTICELLARI/sun5/sun5_0005
+	bounds: 574, 739, 120, 120
+PARTICELLARI/sun5/sun5_0006
+	bounds: 695, 739, 120, 120
+PARTICELLARI/sun5/sun5_0007
+	bounds: 816, 739, 120, 120
+PARTICELLARI/sun5/sun5_0008
+	bounds: 937, 739, 120, 120
+PARTICELLARI/sun5/sun5_0009
+	bounds: 1058, 737, 120, 120
+PARTICELLARI/sun5/sun5_0010
+	bounds: 1179, 737, 120, 120
+PARTICELLARI/sun5/sun5_0011
+	bounds: 1300, 737, 120, 120
+PARTICELLARI/sun5/sun5_0012
+	bounds: 1421, 737, 120, 120
+PARTICELLARI/sun5/sun5_0013
+	bounds: 1704, 737, 120, 120
+PARTICELLARI/sun5/sun5_0014
+	bounds: 1825, 737, 120, 120
+PARTICELLARI/sun5/sun5_0015
+	bounds: 1542, 711, 120, 120
+PARTICELLARI/sun5/sun5_0016
+	bounds: 1, 658, 120, 120
+PARTICELLARI/sun5/sun5_0017
+	bounds: 122, 658, 120, 120
+PARTICELLARI/sun5/sun5_0018
+	bounds: 243, 658, 120, 120
+PARTICELLARI/sun5/sun5_0019
+	bounds: 364, 645, 120, 120
+RESPIN/ala-box-respin
+	bounds: 1935, 1462, 108, 104
+RESPIN/box-crosta
+	bounds: 917, 2014, 136, 31
+RESPIN/box-grid-respin
+	bounds: 1077, 858, 505, 94
+RESPIN/box-on
+	bounds: 1054, 2014, 146, 31
+RESPIN/box-respin
+	bounds: 578, 860, 498, 92
+	offsets: 0, 1, 498, 93
+TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus
+	bounds: 436, 1931, 238, 48
+	offsets: 2, 2, 246, 53
+TOTAL-WIN-BONUS/BOX-totalwin-bonus
+	bounds: 1, 779, 451, 107
+TOTAL-WIN-BONUS/GIOIELLO
+	bounds: 675, 1923, 159, 56
+	offsets: 1, 1, 161, 57
+TOTAL-WIN-BONUS/scritta_TOTALWIN
+	bounds: 586, 973, 400, 85
+	offsets: 9, 6, 418, 97
+TOTAL-WIN/ALA
+	bounds: 1858, 1908, 66, 121
+	rotate: 90
+TOTAL-WIN/PUNTO-LUCE-total
+	bounds: 136, 2020, 25, 25
+	offsets: 1, 1, 27, 27
+effetti/bagliore_cometa
+	bounds: 537, 1215, 360, 72
+effetti/cometa2/cometa2_0000
+	bounds: 988, 1917, 360, 60
+effetti/cometa2/cometa2_0001
+	bounds: 1349, 1916, 360, 60
+effetti/cometa2/cometa2_0002
+	bounds: 1, 1883, 360, 60
+effetti/cometa2/cometa2_0003
+	bounds: 436, 1862, 360, 60
+effetti/cometa2/cometa2_0004
+	bounds: 797, 1856, 360, 60
+effetti/cometa2/cometa2_0005
+	bounds: 1158, 1855, 360, 60
+effetti/cometa2/cometa2_0006
+	bounds: 1519, 1847, 360, 60
+effetti/cometa2/cometa2_0007
+	bounds: 1, 1822, 360, 60
+effetti/cometa2/cometa2_0008
+	bounds: 362, 1801, 360, 60
+effetti/cometa2/cometa2_0009
+	bounds: 723, 1795, 360, 60
+effetti/cometa2/cometa2_0010
+	bounds: 1084, 1794, 360, 60
+effetti/cometa2/cometa2_0011
+	bounds: 1445, 1786, 360, 60
+effetti/cometa2/cometa2_0012
+	bounds: 1, 1761, 360, 60
+effetti/cometa2/cometa2_0013
+	bounds: 362, 1740, 360, 60
+effetti/cometa2/cometa2_0014
+	bounds: 723, 1734, 360, 60
+effetti/cometa2/cometa2_0015
+	bounds: 1084, 1733, 360, 60
+effetti/cometa2/cometa2_0016
+	bounds: 1445, 1725, 360, 60
+effetti/cometa2/cometa2_0017
+	bounds: 1, 1700, 360, 60
+effetti/cometa2/cometa2_0018
+	bounds: 362, 1679, 360, 60
+effetti/cometa2/cometa2_0019
+	bounds: 723, 1673, 360, 60
+effetti/cometa2/cometa2_0020
+	bounds: 1084, 1672, 360, 60
+effetti/cometa2/cometa2_0021
+	bounds: 1445, 1664, 360, 60
+effetti/cometa2/cometa2_0022
+	bounds: 1, 1639, 360, 60
+effetti/cometa2/cometa2_0023
+	bounds: 362, 1618, 360, 60
+effetti/cometa2/cometa2_0024
+	bounds: 723, 1612, 360, 60
+effetti/cometa2/cometa2_0025
+	bounds: 1084, 1611, 360, 60
+effetti/cometa2/cometa2_0026
+	bounds: 1445, 1603, 360, 60
+effetti/cometa2/cometa2_0027
+	bounds: 1, 1578, 360, 60
+effetti/cometa2/cometa2_0028
+	bounds: 362, 1557, 360, 60
+effetti/cometa2/cometa2_0029
+	bounds: 723, 1551, 360, 60
+effetti/cometa2/cometa2_0030
+	bounds: 1084, 1550, 360, 60
+effetti/cometa2/cometa2_0031
+	bounds: 1445, 1542, 360, 60
+effetti/cometa2/cometa2_0032
+	bounds: 1, 1517, 360, 60
+effetti/cometa2/cometa2_0033
+	bounds: 362, 1496, 360, 60
+effetti/cometa2/cometa2_0034
+	bounds: 723, 1490, 360, 60
+effetti/cometa2/cometa2_0035
+	bounds: 1084, 1489, 360, 60
+effetti/cometa2/cometa2_0036
+	bounds: 1445, 1481, 360, 60
+effetti/cometa2/cometa2_0037
+	bounds: 1, 1456, 360, 60
+effetti/cometa2/cometa2_0038
+	bounds: 362, 1435, 360, 60
+effetti/cometa2/cometa2_0039
+	bounds: 723, 1429, 360, 60
+effetti/cometa2/cometa2_0040
+	bounds: 1084, 1428, 360, 60
+effetti/cometa2/cometa2_0041
+	bounds: 1445, 1420, 360, 60
+effetti/cometa2/cometa2_0042
+	bounds: 1, 1395, 360, 60
+effetti/cometa2/cometa2_0043
+	bounds: 362, 1374, 360, 60
+effetti/star
+	bounds: 1935, 1357, 104, 104
+effetti/sun4/sun4_0000
+	bounds: 485, 618, 120, 120
+energy/energy_0000
+	bounds: 1880, 1835, 128, 72
+energy/energy_0001
+	bounds: 1806, 1762, 128, 72
+energy/energy_0002
+	bounds: 1806, 1689, 128, 72
+energy/energy_0003
+	bounds: 1806, 1616, 128, 72
+energy/energy_0004
+	bounds: 1806, 1543, 128, 72
+energy/energy_0005
+	bounds: 1806, 1470, 128, 72
+energy/energy_0006
+	bounds: 1806, 1397, 128, 72
+energy/energy_0007
+	bounds: 1617, 1347, 128, 72
+energy/energy_0008
+	bounds: 1746, 1324, 128, 72
+energy/energy_0009
+	bounds: 537, 1301, 128, 72
+energy/energy_0010
+	bounds: 934, 1288, 128, 72
+energy/energy_0011
+	bounds: 1063, 1285, 128, 72
+energy/energy_0012
+	bounds: 1192, 1285, 128, 72
+energy/energy_0013
+	bounds: 1875, 1284, 128, 72
+infinto
+	bounds: 116, 2036, 19, 9
+menu_auto_shadow_LS
+	bounds: 835, 1917, 152, 62
+	offsets: 12, 6, 164, 68
+menu_auto_shadow_PT
+	bounds: 1935, 1668, 102, 83
+	offsets: 1, 1, 105, 89
+menu_bet_shadow
+	bounds: 1722, 1238, 143, 85
+	offsets: 3, 0, 146, 88
+power_spin/bagliore_espansione
+	bounds: 1779, 1912, 64, 78
+	rotate: 90
+power_spin/light_swipe
+	bounds: 3, 2041, 40, 4
+power_spin/power_spin_box
+	bounds: 1346, 2013, 68, 32
+	offsets: 1, 1, 70, 34
+power_spin/power_spin_fine-HD
+	bounds: 987, 953, 819, 68
+power_spin/power_spin_logo_con_box
+	bounds: 1415, 2013, 204, 32
+	offsets: 1, 1, 206, 34
+power_spin/power_spin_popup_conversione
+	bounds: 1073, 1126, 260, 74
+power_spin/pulsante_conversione_power_spin
+	bounds: 162, 2016, 29, 29
+pulsante_neutro_120
+	bounds: 1, 2004, 36, 36
+	offsets: 6, 6, 48, 48
+rett_nero
+	bounds: 44, 2041, 4, 4
+
+SPINE-ARES-ONLINE_POWERSPIN_2.webp
+	size: 2047, 1985
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+LOCK-SPIN/LOGO-LOCK_SPIN
+	bounds: 1214, 1852, 696, 132
+	offsets: 0, 7, 696, 145
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_10
+	bounds: 1071, 196, 203, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_19
+	bounds: 1507, 957, 201, 144
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_20
+	bounds: 1854, 1179, 199, 144
+	offsets: 39, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_21
+	bounds: 1507, 1159, 199, 144
+	offsets: 39, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_22
+	bounds: 1880, 1578, 198, 145
+	offsets: 40, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_23
+	bounds: 1730, 1455, 198, 145
+	offsets: 40, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_24
+	bounds: 1876, 1379, 198, 145
+	offsets: 40, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_25
+	bounds: 1708, 1256, 198, 145
+	offsets: 40, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_26
+	bounds: 1707, 1056, 199, 145
+	offsets: 39, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_27
+	bounds: 1853, 978, 200, 145
+	offsets: 39, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_28
+	bounds: 1652, 854, 201, 145
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_29
+	bounds: 1505, 755, 201, 145
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_30
+	bounds: 1866, 639, 201, 145
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_31
+	bounds: 1887, 22, 201, 145
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_43
+	bounds: 1275, 193, 204, 142
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_44
+	bounds: 1480, 144, 204, 142
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_45
+	bounds: 1300, 890, 204, 141
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_46
+	bounds: 438, 348, 204, 141
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_47
+	bounds: 861, 341, 205, 141
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_50
+	bounds: 1526, 1576, 203, 140
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_51
+	bounds: 1286, 1305, 201, 140
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_52
+	bounds: 1287, 336, 201, 141
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_53
+	bounds: 1685, 81, 201, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_54
+	bounds: 1489, 287, 201, 141
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_55
+	bounds: 1, 68, 201, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_56
+	bounds: 203, 66, 201, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_64
+	bounds: 405, 63, 205, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_83
+	bounds: 611, 63, 203, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_84
+	bounds: 221, 209, 202, 141
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_85
+	bounds: 815, 56, 203, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_86
+	bounds: 424, 206, 204, 141
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_87
+	bounds: 1019, 53, 204, 142
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_88
+	bounds: 1224, 50, 203, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_89
+	bounds: 1428, 1, 203, 142
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_00
+	bounds: 220, 351, 217, 138
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_01
+	bounds: 643, 346, 217, 138
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_02
+	bounds: 1691, 224, 218, 139
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_03
+	bounds: 1, 211, 219, 139
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_04
+	bounds: 1067, 339, 219, 138
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_05
+	bounds: 629, 206, 220, 139
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_06
+	bounds: 850, 199, 220, 139
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_07
+	bounds: 218, 490, 216, 137
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_08
+	bounds: 435, 490, 216, 137
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_09
+	bounds: 1085, 895, 214, 136
+	offsets: 31, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_10
+	bounds: 1798, 841, 214, 136
+	offsets: 31, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_11
+	bounds: 1, 1450, 212, 135
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_12
+	bounds: 214, 1449, 212, 135
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_13
+	bounds: 427, 1447, 212, 135
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_14
+	bounds: 640, 1447, 211, 135
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_15
+	bounds: 852, 1446, 211, 135
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_16
+	bounds: 1064, 1446, 212, 135
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_17
+	bounds: 1277, 1446, 212, 135
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_18
+	bounds: 1490, 1440, 212, 135
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_19
+	bounds: 1, 1314, 211, 135
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_20
+	bounds: 213, 1313, 210, 135
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_21
+	bounds: 424, 1311, 208, 135
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_22
+	bounds: 1911, 1777, 207, 135
+	offsets: 37, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_23
+	bounds: 1, 1177, 209, 136
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_24
+	bounds: 435, 1038, 208, 136
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_25
+	bounds: 1, 768, 209, 136
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_26
+	bounds: 211, 766, 209, 136
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_27
+	bounds: 652, 485, 210, 137
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_28
+	bounds: 863, 483, 210, 137
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_29
+	bounds: 1074, 478, 210, 137
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_30
+	bounds: 1285, 478, 210, 137
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_31
+	bounds: 1496, 429, 210, 137
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_32
+	bounds: 1707, 364, 211, 137
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_33
+	bounds: 421, 765, 212, 136
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_34
+	bounds: 634, 765, 214, 136
+	offsets: 32, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_35
+	bounds: 633, 1311, 215, 135
+	offsets: 31, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_36
+	bounds: 849, 1310, 216, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_37
+	bounds: 849, 760, 218, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_38
+	bounds: 1068, 758, 218, 136
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_39
+	bounds: 1066, 1310, 219, 135
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_40
+	bounds: 1488, 1304, 219, 135
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_41
+	bounds: 424, 1175, 219, 135
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_42
+	bounds: 636, 1718, 219, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_43
+	bounds: 856, 1718, 219, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_44
+	bounds: 1076, 1717, 219, 134
+	offsets: 26, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_45
+	bounds: 1296, 1717, 218, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_46
+	bounds: 1515, 1717, 218, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_47
+	bounds: 1, 1586, 218, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_48
+	bounds: 220, 1585, 218, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_49
+	bounds: 439, 1583, 217, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_50
+	bounds: 657, 1583, 218, 134
+	offsets: 27, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_51
+	bounds: 644, 1174, 217, 135
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_52
+	bounds: 862, 1174, 216, 135
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_53
+	bounds: 1079, 1169, 213, 135
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_54
+	bounds: 1293, 1168, 213, 135
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_55
+	bounds: 211, 1177, 212, 135
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_56
+	bounds: 1287, 753, 214, 136
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_57
+	bounds: 1651, 704, 214, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_58
+	bounds: 1, 629, 216, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_59
+	bounds: 1, 1041, 216, 135
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_60
+	bounds: 218, 1039, 216, 135
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_61
+	bounds: 876, 1582, 216, 134
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_62
+	bounds: 644, 1038, 215, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_63
+	bounds: 1093, 1582, 216, 134
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_64
+	bounds: 1310, 1582, 215, 134
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_65
+	bounds: 860, 1038, 215, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_66
+	bounds: 1076, 1033, 215, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_67
+	bounds: 1, 905, 215, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_68
+	bounds: 217, 903, 216, 135
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_69
+	bounds: 434, 902, 216, 135
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_70
+	bounds: 651, 902, 217, 135
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_71
+	bounds: 218, 628, 217, 136
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_72
+	bounds: 436, 628, 217, 136
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_73
+	bounds: 1, 352, 218, 137
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_74
+	bounds: 654, 623, 217, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_75
+	bounds: 872, 621, 217, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_76
+	bounds: 1090, 616, 218, 136
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_77
+	bounds: 1309, 616, 217, 136
+	offsets: 28, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_78
+	bounds: 1527, 567, 216, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_79
+	bounds: 1744, 502, 216, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_80
+	bounds: 1, 492, 216, 136
+	offsets: 29, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_81
+	bounds: 869, 897, 215, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_82
+	bounds: 1292, 1032, 214, 135
+	offsets: 30, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_83
+	bounds: 423, 1720, 212, 133
+	offsets: 31, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_84
+	bounds: 1, 1721, 210, 132
+	offsets: 32, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_85
+	bounds: 212, 1721, 210, 132
+	offsets: 31, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_86
+	bounds: 796, 1853, 208, 131
+	offsets: 32, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_87
+	bounds: 1005, 1853, 208, 131
+	offsets: 32, 0, 280, 160
+PARTICELLARI/NEW_sequenza_lineare/FUOCO-LINEARE_89
+	bounds: 1, 1854, 207, 130
+	offsets: 33, 0, 280, 160
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_09
+	bounds: 1734, 1654, 145, 197
+	offsets: 26, 50, 200, 280
+POWERSPIN/power_spin/power_spin_logo-HD
+	bounds: 209, 1854, 586, 130
+	offsets: 4, 3, 595, 138
+power_spin/power_spin_logo-HD
+	bounds: 209, 1854, 586, 130
+	offsets: 4, 3, 595, 138
+
+SPINE-ARES-ONLINE_POWERSPIN_3.webp
+	size: 2047, 2028
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+BIG-SUPER-MEGA/BAGLIORE RETRO
+	bounds: 883, 615, 385, 228
+	offsets: 11, 32, 406, 300
+LOGO/logo_ares
+	bounds: 1280, 805, 538, 158
+	offsets: 1, 1, 540, 159
+PALLETTE/PALLETTA-ROSSA/PALLETTA
+	bounds: 1710, 471, 272, 271
+	offsets: 6, 7, 284, 284
+PALLETTE/PALLETTA-ROSSA/bagliore
+	bounds: 1819, 743, 220, 225
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_00
+	bounds: 416, 1451, 205, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_01
+	bounds: 622, 1451, 206, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_02
+	bounds: 829, 1451, 207, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_03
+	bounds: 1037, 1451, 207, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_04
+	bounds: 1245, 1451, 208, 144
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_05
+	bounds: 1454, 1451, 206, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_06
+	bounds: 1241, 1305, 208, 145
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_07
+	bounds: 1661, 1451, 205, 144
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_08
+	bounds: 1, 1307, 204, 144
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_09
+	bounds: 1, 1884, 203, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_11
+	bounds: 205, 1884, 203, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_12
+	bounds: 409, 1884, 203, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_13
+	bounds: 613, 1884, 203, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_14
+	bounds: 817, 1884, 204, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_15
+	bounds: 1022, 1884, 203, 143
+	offsets: 37, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_16
+	bounds: 1226, 1884, 204, 143
+	offsets: 37, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_17
+	bounds: 1431, 1884, 203, 143
+	offsets: 37, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_18
+	bounds: 1867, 1537, 202, 144
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_32
+	bounds: 1867, 1334, 202, 145
+	offsets: 38, 0, 280, 160
+	rotate: 90
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_33
+	bounds: 1450, 1305, 203, 145
+	offsets: 37, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_34
+	bounds: 1654, 1305, 205, 145
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_35
+	bounds: 1, 1161, 206, 145
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_36
+	bounds: 208, 1160, 206, 145
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_37
+	bounds: 415, 1160, 206, 145
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_38
+	bounds: 206, 1307, 206, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_39
+	bounds: 413, 1306, 206, 144
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_40
+	bounds: 1635, 1884, 205, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_41
+	bounds: 1841, 1884, 205, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_42
+	bounds: 1, 1740, 204, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_57
+	bounds: 206, 1740, 202, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_58
+	bounds: 409, 1740, 202, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_59
+	bounds: 612, 1740, 202, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_60
+	bounds: 815, 1740, 203, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_61
+	bounds: 1019, 1740, 203, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_62
+	bounds: 1223, 1740, 203, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_63
+	bounds: 1427, 1740, 204, 143
+	offsets: 36, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_65
+	bounds: 1632, 1740, 205, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_66
+	bounds: 1838, 1740, 205, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_67
+	bounds: 1, 1596, 205, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_68
+	bounds: 207, 1596, 205, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_69
+	bounds: 413, 1596, 206, 143
+	offsets: 35, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_70
+	bounds: 620, 1596, 207, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_71
+	bounds: 828, 1596, 207, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_72
+	bounds: 1036, 1596, 207, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_73
+	bounds: 1244, 1596, 206, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_74
+	bounds: 1451, 1596, 207, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_75
+	bounds: 1659, 1596, 207, 143
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_76
+	bounds: 1, 1452, 207, 143
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_77
+	bounds: 620, 1306, 207, 144
+	offsets: 33, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_78
+	bounds: 828, 1306, 206, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_79
+	bounds: 622, 1160, 206, 145
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_80
+	bounds: 829, 1160, 206, 145
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_81
+	bounds: 1035, 1306, 205, 144
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_1-3/accumulo 1-3_82
+	bounds: 209, 1452, 206, 143
+	offsets: 34, 0, 280, 160
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_18
+	bounds: 1765, 74, 396, 233
+	offsets: 34, 4, 500, 280
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_00
+	bounds: 1, 649, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_01
+	bounds: 442, 643, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_02
+	bounds: 1269, 604, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_03
+	bounds: 1, 448, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_04
+	bounds: 442, 442, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_05
+	bounds: 883, 403, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_06
+	bounds: 1324, 270, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_07
+	bounds: 1, 247, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_08
+	bounds: 442, 241, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_09
+	bounds: 883, 202, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_10
+	bounds: 1324, 69, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_11
+	bounds: 1, 46, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_12
+	bounds: 442, 40, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_13
+	bounds: 883, 1, 200, 440
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_10
+	bounds: 1036, 1157, 147, 214
+	offsets: 24, 33, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_11
+	bounds: 1, 1011, 148, 215
+	offsets: 23, 32, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_12
+	bounds: 1896, 1119, 148, 214
+	offsets: 22, 33, 200, 280
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_13
+	bounds: 1251, 1157, 147, 214
+	offsets: 23, 33, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_14
+	bounds: 1466, 1157, 147, 214
+	offsets: 23, 33, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_15
+	bounds: 1681, 1157, 147, 214
+	offsets: 23, 33, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_16
+	bounds: 854, 1002, 154, 213
+	offsets: 24, 34, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_17
+	bounds: 1068, 1002, 154, 214
+	offsets: 24, 33, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_18
+	bounds: 1283, 1002, 154, 215
+	offsets: 24, 33, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_19
+	bounds: 1499, 1002, 154, 214
+	offsets: 24, 35, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_20
+	bounds: 1714, 964, 154, 213
+	offsets: 24, 35, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_21
+	bounds: 217, 1006, 153, 212
+	offsets: 24, 36, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_22
+	bounds: 430, 1006, 153, 210
+	offsets: 24, 37, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_23
+	bounds: 1, 856, 154, 210
+	offsets: 23, 37, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_24
+	bounds: 641, 1006, 153, 212
+	offsets: 24, 35, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_25
+	bounds: 212, 850, 155, 212
+	offsets: 22, 35, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_26
+	bounds: 425, 850, 155, 212
+	offsets: 22, 35, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_27
+	bounds: 638, 849, 156, 212
+	offsets: 21, 35, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_28
+	bounds: 851, 844, 157, 213
+	offsets: 20, 34, 200, 280
+	rotate: 90
+PARTICELLARI/sequenza-fuoco-thunder/lock-spin_29
+	bounds: 1065, 844, 157, 214
+	offsets: 20, 33, 200, 280
+	rotate: 90
+
+SPINE-ARES-ONLINE_POWERSPIN_4.webp
+	size: 2023, 1990
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_12
+	bounds: 814, 2, 402, 228
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_29
+	bounds: 1217, 1, 398, 228
+	offsets: 34, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_30
+	bounds: 1616, 1, 397, 228
+	offsets: 35, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_31
+	bounds: 1, 461, 398, 227
+	offsets: 34, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_32
+	bounds: 809, 460, 398, 227
+	offsets: 34, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_35
+	bounds: 1208, 459, 399, 227
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_36
+	bounds: 1608, 458, 398, 227
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_37
+	bounds: 1, 233, 398, 227
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_38
+	bounds: 1212, 913, 397, 226
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_39
+	bounds: 400, 233, 397, 227
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_40
+	bounds: 798, 232, 397, 227
+	offsets: 30, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_41
+	bounds: 1765, 1593, 396, 229
+	offsets: 30, 6, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_48
+	bounds: 405, 1141, 402, 224
+	offsets: 28, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_49
+	bounds: 808, 1140, 404, 224
+	offsets: 27, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_50
+	bounds: 1, 1142, 403, 223
+	offsets: 29, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_51
+	bounds: 1207, 1365, 403, 222
+	offsets: 30, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_52
+	bounds: 1611, 1365, 403, 222
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_53
+	bounds: 1, 1366, 402, 221
+	offsets: 32, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_54
+	bounds: 404, 1366, 401, 221
+	offsets: 33, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_55
+	bounds: 806, 1366, 400, 221
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_56
+	bounds: 1213, 1140, 400, 224
+	offsets: 33, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_57
+	bounds: 1614, 1139, 402, 225
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_58
+	bounds: 1, 916, 402, 225
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_59
+	bounds: 1, 689, 402, 226
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_60
+	bounds: 404, 915, 402, 225
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_61
+	bounds: 404, 688, 402, 226
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_62
+	bounds: 1196, 231, 403, 227
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_63
+	bounds: 1600, 230, 404, 227
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_67
+	bounds: 1, 5, 406, 227
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_68
+	bounds: 408, 4, 405, 227
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_69
+	bounds: 807, 914, 404, 225
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_70
+	bounds: 1610, 913, 402, 225
+	offsets: 33, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_71
+	bounds: 807, 688, 403, 225
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_72
+	bounds: 1618, 686, 404, 226
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_73
+	bounds: 1211, 687, 406, 225
+	offsets: 31, 8, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_74
+	bounds: 400, 461, 408, 226
+	offsets: 31, 8, 500, 280
+PARTICELLARI/scia-bonus-1/scia-bonus-1_14
+	bounds: 1, 1789, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_15
+	bounds: 442, 1789, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_16
+	bounds: 883, 1789, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_17
+	bounds: 1324, 1789, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_18
+	bounds: 1, 1588, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_19
+	bounds: 442, 1588, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_20
+	bounds: 883, 1588, 200, 440
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_21
+	bounds: 1324, 1588, 200, 440
+	rotate: 90
+
+SPINE-ARES-ONLINE_POWERSPIN_5.webp
+	size: 2046, 1858
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_00
+	bounds: 1635, 1, 410, 235
+	offsets: 29, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_01
+	bounds: 399, 3, 411, 234
+	offsets: 27, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_02
+	bounds: 1613, 237, 409, 233
+	offsets: 28, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_03
+	bounds: 811, 3, 411, 234
+	offsets: 28, 3, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_04
+	bounds: 1223, 2, 411, 234
+	offsets: 27, 3, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_06
+	bounds: 1215, 704, 405, 232
+	offsets: 29, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_09
+	bounds: 1621, 704, 403, 232
+	offsets: 31, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_10
+	bounds: 1, 1169, 403, 230
+	offsets: 31, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_11
+	bounds: 411, 1399, 402, 229
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_13
+	bounds: 816, 1168, 400, 230
+	offsets: 33, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_14
+	bounds: 814, 1399, 399, 229
+	offsets: 33, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_15
+	bounds: 1217, 1168, 399, 230
+	offsets: 33, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_16
+	bounds: 1617, 1168, 399, 230
+	offsets: 32, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_17
+	bounds: 1, 474, 397, 232
+	offsets: 33, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_19
+	bounds: 1, 240, 397, 233
+	offsets: 34, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_20
+	bounds: 1, 5, 397, 234
+	offsets: 34, 4, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_21
+	bounds: 399, 473, 397, 232
+	offsets: 34, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_22
+	bounds: 797, 472, 399, 232
+	offsets: 33, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_23
+	bounds: 1197, 471, 398, 232
+	offsets: 33, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_24
+	bounds: 1596, 471, 399, 232
+	offsets: 33, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_25
+	bounds: 399, 239, 400, 232
+	offsets: 33, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_26
+	bounds: 800, 238, 400, 232
+	offsets: 33, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_27
+	bounds: 814, 705, 400, 231
+	offsets: 33, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_28
+	bounds: 1214, 1399, 398, 229
+	offsets: 34, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_33
+	bounds: 1, 1629, 398, 228
+	offsets: 34, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_34
+	bounds: 400, 1629, 398, 228
+	offsets: 33, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_42
+	bounds: 1, 938, 397, 230
+	offsets: 29, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_43
+	bounds: 399, 938, 396, 230
+	offsets: 29, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_44
+	bounds: 796, 937, 398, 230
+	offsets: 29, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_45
+	bounds: 1195, 937, 401, 230
+	offsets: 28, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_46
+	bounds: 1597, 937, 402, 230
+	offsets: 28, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_47
+	bounds: 1, 707, 402, 230
+	offsets: 28, 6, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_64
+	bounds: 799, 1629, 404, 228
+	offsets: 33, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_65
+	bounds: 1613, 1399, 405, 229
+	offsets: 32, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_66
+	bounds: 1204, 1629, 406, 228
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_75
+	bounds: 1611, 1629, 410, 228
+	offsets: 30, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_76
+	bounds: 1, 1400, 409, 228
+	offsets: 31, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_77
+	bounds: 405, 1169, 410, 229
+	offsets: 30, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_78
+	bounds: 404, 706, 409, 230
+	offsets: 30, 7, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_89
+	bounds: 1201, 238, 411, 232
+	offsets: 28, 4, 500, 280
+
+SPINE-ARES-ONLINE_POWERSPIN_6.webp
+	size: 1808, 1476
+	filter: Linear, Linear
+	pma: true
+	scale: 0.4
+ANIM_FLASH/V_tendina
+	bounds: 1, 451, 288, 1024
+ANIM_FLASH/tendina
+	bounds: 290, 899, 512, 576
+ELEMENTI-COMUNI/bagliore-big
+	bounds: 1093, 944, 411, 262
+	offsets: 0, 1, 414, 266
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_05
+	bounds: 680, 487, 411, 236
+	offsets: 27, 3, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_07
+	bounds: 1336, 534, 409, 235
+	offsets: 29, 4, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_08
+	bounds: 1572, 647, 410, 235
+	offsets: 29, 4, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_79
+	bounds: 917, 472, 417, 234
+	offsets: 27, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_80
+	bounds: 517, 70, 416, 234
+	offsets: 27, 5, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_81
+	bounds: 752, 1, 415, 234
+	offsets: 26, 5, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_82
+	bounds: 917, 707, 418, 236
+	offsets: 24, 3, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_83
+	bounds: 280, 33, 417, 236
+	offsets: 24, 3, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_84
+	bounds: 752, 236, 415, 235
+	offsets: 25, 3, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_85
+	bounds: 1168, 57, 414, 234
+	offsets: 25, 3, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_86
+	bounds: 1093, 1207, 423, 268
+	offsets: 24, 1, 500, 280
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_87
+	bounds: 1517, 1058, 417, 238
+	offsets: 26, 2, 500, 280
+	rotate: 90
+PARTICELLARI/NEW_sequenza_4_6/accumulo 4-6_88
+	bounds: 1403, 120, 413, 234
+	offsets: 27, 3, 500, 280
+	rotate: 90
+TOTAL-WIN/BAGLIORE-BIG
+	bounds: 1, 18, 432, 278
+	offsets: 0, 2, 432, 290
+	rotate: 90
+TOTAL-WIN/v_rettangolo
+	bounds: 803, 962, 289, 513
+tondo_di_luce
+	bounds: 290, 518, 389, 380
+	offsets: 7, 11, 400, 400

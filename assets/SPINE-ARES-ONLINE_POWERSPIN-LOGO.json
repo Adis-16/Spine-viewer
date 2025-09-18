@@ -1,0 +1,176 @@
+{
+"skeleton": { "hash": "KPunKVMeh10", "spine": "4.1-from-4.2.43", "images": "./images/", "audio": "/Users/elenaferrari/Documents/ONLINE/ARES-PC/SPINE" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "LOGO", "parent": "root", "x": 60.31, "y": 260.42, "scaleX": 0.6, "scaleY": 0.6 },
+	{ "name": "additivo-ala-dx", "parent": "LOGO", "x": 166.18, "y": 7.41 },
+	{ "name": "additivo-ala-sn", "parent": "LOGO", "x": -165.57, "y": 5.45, "shearX": 180 },
+	{ "name": "power_spin_logo", "parent": "root", "x": 56.39, "y": 225.05, "scaleX": 0.09, "scaleY": 0.09 }
+],
+"slots": [
+	{ "name": "logo_ares", "bone": "LOGO" },
+	{ "name": "additivo-logo", "bone": "LOGO", "blend": "additive" },
+	{ "name": "additivo-ala-dx", "bone": "additivo-ala-dx", "blend": "additive" },
+	{ "name": "additivo-ala-sn", "bone": "additivo-ala-sn", "blend": "additive" },
+	{ "name": "power_spin_logo", "bone": "power_spin_logo" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"additivo-ala-dx": {
+				"LOGO/additivo-ala": { "width": 134, "height": 117 }
+			},
+			"additivo-ala-sn": {
+				"LOGO/additivo-ala": { "x": 0.58, "y": 1.75, "width": 134, "height": 117 }
+			},
+			"additivo-logo": {
+				"LOGO/additivo-logo": { "x": -1.69, "y": -1.9, "width": 285, "height": 91 }
+			},
+			"logo_ares": {
+				"LOGO/logo_ares": { "y": 0.7, "scaleX": 0.33, "scaleY": 0.34, "width": 1351, "height": 397 }
+			},
+			"power_spin_logo": {
+				"POWERSPIN/power_spin/power_spin_logo-HD": { "width": 1488, "height": 344 }
+			}
+		}
+	}
+],
+"animations": {
+	"dummy": {
+		"slots": {
+			"logo_ares": {
+				"attachment": [
+					{}
+				]
+			}
+		}
+	},
+	"logo": {
+		"slots": {
+			"additivo-ala-dx": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "LOGO/additivo-ala" }
+				]
+			},
+			"additivo-ala-sn": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "LOGO/additivo-ala" }
+				]
+			},
+			"additivo-logo": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffff50" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "LOGO/additivo-logo" }
+				]
+			},
+			"logo_ares": {
+				"attachment": [
+					{ "name": "LOGO/logo_ares" }
+				]
+			},
+			"power_spin_logo": {
+				"attachment": [
+					{ "name": "POWERSPIN/power_spin/power_spin_logo-HD" }
+				]
+			}
+		},
+		"bones": {
+			"LOGO": {
+				"translate": [
+					{ "y": -1.05 }
+				],
+				"scale": [
+					{ "x": 1.2, "y": 1.167 }
+				]
+			},
+			"power_spin_logo": {
+				"translate": [
+					{ "x": -0.49, "y": -2.64 }
+				]
+			}
+		}
+	},
+	"V_logo": {
+		"slots": {
+			"additivo-ala-dx": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "LOGO/additivo-ala" }
+				]
+			},
+			"additivo-ala-sn": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "LOGO/additivo-ala" }
+				]
+			},
+			"additivo-logo": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffff50" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "LOGO/additivo-logo" }
+				]
+			},
+			"logo_ares": {
+				"attachment": [
+					{ "name": "LOGO/logo_ares" }
+				]
+			},
+			"power_spin_logo": {
+				"attachment": [
+					{ "name": "POWERSPIN/power_spin/power_spin_logo-HD" }
+				]
+			}
+		},
+		"bones": {
+			"LOGO": {
+				"translate": [
+					{ "x": -59.65, "y": -52.37 }
+				],
+				"scale": [
+					{ "y": 0.983 }
+				]
+			},
+			"power_spin_logo": {
+				"translate": [
+					{ "x": -59.25, "y": -49.35 },
+					{ "time": 0.0333, "x": -59.25, "y": -48.33 }
+				],
+				"scale": [
+					{ "x": 0.9, "y": 0.9 }
+				]
+			}
+		}
+	}
+}
+}

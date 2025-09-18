@@ -1,0 +1,140 @@
+ARES_ONLINE_POWERSPIN_personaggio.webp
+	size: 1994, 1987
+	filter: Linear, Linear
+	pma: true
+	scale: 0.8
+ARES-BIG/DORATURA2-elmo
+	bounds: 1685, 1781, 205, 260
+	offsets: 18, 51, 223, 324
+	rotate: 90
+ARES-BIG/armatura
+	bounds: 793, 1035, 449, 595
+	offsets: 0, 0, 449, 608
+	rotate: 90
+ARES-BIG/braccio-dx
+	bounds: 896, 1485, 311, 680
+	offsets: 0, 0, 311, 793
+	rotate: 90
+ARES-BIG/braccio-sn
+	bounds: 1, 1217, 342, 791
+	rotate: 90
+ARES-BIG/capelli
+	bounds: 665, 1816, 178, 170
+	offsets: 0, 0, 180, 170
+ARES-BIG/coprispalla-braccio-dx
+	bounds: 1179, 1797, 189, 252
+	rotate: 90
+ARES-BIG/coprispalla-braccio-sn
+	bounds: 326, 1617, 284, 249
+ARES-BIG/doratura-armtura
+	bounds: 1389, 803, 449, 604
+	offsets: 0, 0, 449, 608
+	rotate: 90
+ARES-BIG/doratura-braccio-dx
+	bounds: 1432, 1797, 189, 252
+	rotate: 90
+ARES-BIG/doratura-braccio-sn
+	bounds: 611, 1560, 284, 249
+ARES-BIG/doratura-corpo
+	bounds: 844, 1810, 334, 176
+	offsets: 2, 0, 346, 182
+ARES-BIG/doratura-drappo
+	bounds: 355, 1867, 309, 119
+	offsets: 3, 2, 313, 125
+ARES-BIG/doratura-gioiello
+	bounds: 1, 1907, 79, 85
+	offsets: 1, 1, 80, 88
+	rotate: 90
+ARES-BIG/scia-bonus3
+	bounds: 1577, 1253, 415, 527
+	offsets: 29, 0, 480, 560
+ARES-BIG/testa
+	bounds: 1, 1648, 223, 324
+	rotate: 90
+ARES-BIG/tondo di luce
+	bounds: 87, 1906, 147, 80
+	offsets: 1, 1, 150, 82
+ELEMENTI-COMUNI/cerchio-fuoco-sfoca
+	bounds: 235, 1872, 119, 114
+	offsets: 6, 3, 131, 123
+PARTICELLARI/scia-bonus-1/scia-bonus-1_00
+	bounds: 1, 634, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_01
+	bounds: 882, 402, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_02
+	bounds: 1, 233, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_03
+	bounds: 882, 1, 400, 880
+	rotate: 90
+
+ARES_ONLINE_POWERSPIN_personaggio_2.webp
+	size: 1884, 1769
+	filter: Linear, Linear
+	pma: true
+	scale: 0.8
+ARES-BIG/corpo
+	bounds: 580, 1204, 564, 840
+	offsets: 0, 0, 564, 882
+	rotate: 90
+ELEMENTI-COMUNI/effetto_bagliore
+	bounds: 1, 148, 600, 593
+PARTICELLARI/scia-bonus-1/scia-bonus-1_04
+	bounds: 580, 803, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_05
+	bounds: 602, 402, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_06
+	bounds: 1461, 888, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_07
+	bounds: 1483, 7, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_08
+	bounds: 602, 1, 400, 880
+	rotate: 90
+TOTAL-WIN/v_rettangolo
+	bounds: 1, 742, 578, 1026
+
+ARES_ONLINE_POWERSPIN_personaggio_3.webp
+	size: 1684, 1763
+	filter: Linear, Linear
+	pma: true
+	scale: 0.8
+PARTICELLARI/scia-bonus-1/scia-bonus-1_09
+	bounds: 1, 882, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_10
+	bounds: 1, 481, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_11
+	bounds: 402, 1362, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_12
+	bounds: 402, 961, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_13
+	bounds: 882, 80, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_14
+	bounds: 1, 80, 400, 880
+	rotate: 90
+PARTICELLARI/scia-bonus-1/scia-bonus-1_15
+	bounds: 1283, 882, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_16
+	bounds: 1283, 1, 400, 880
+
+ARES_ONLINE_POWERSPIN_personaggio_4.webp
+	size: 2006, 882
+	filter: Linear, Linear
+	pma: true
+	scale: 0.8
+PARTICELLARI/scia-bonus-1/scia-bonus-1_17
+	bounds: 1, 1, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_18
+	bounds: 402, 1, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_19
+	bounds: 803, 1, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_20
+	bounds: 1204, 1, 400, 880
+PARTICELLARI/scia-bonus-1/scia-bonus-1_21
+	bounds: 1605, 1, 400, 880

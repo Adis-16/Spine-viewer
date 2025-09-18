@@ -1,0 +1,95 @@
+SPINE-ARES-BIG-TOTALWIN.webp
+	size: 2045, 1758
+	filter: Linear, Linear
+	pma: true
+BIG-SUPER-MEGA/BOX
+	bounds: 1, 1219, 514, 260
+BIG-SUPER-MEGA/BOX-RETRO
+	bounds: 1405, 1102, 493, 283
+	offsets: 12, 0, 517, 283
+BIG-SUPER-MEGA/GIOIELLO
+	bounds: 1129, 1621, 139, 136
+BIG-SUPER-MEGA/SPADA
+	bounds: 1036, 1, 563, 452
+	offsets: 2, 2, 565, 454
+TOTAL-WIN/ALA
+	bounds: 1, 1530, 164, 303
+	offsets: 0, 0, 165, 303
+	rotate: 90
+TOTAL-WIN/BOX-VINCITA
+	bounds: 1269, 1616, 523, 141
+	offsets: 2, 0, 527, 143
+TOTAL-WIN/CONGRATULAZIONI
+	bounds: 843, 1450, 815, 165
+	offsets: 3, 4, 821, 171
+TOTAL-WIN/CONGRATULAZIONI-bagliore
+	bounds: 355, 1639, 773, 118
+	offsets: 24, 38, 821, 171
+TOTAL-WIN/GIOIELLO-CENTRALE
+	bounds: 1659, 1386, 217, 244
+	offsets: 0, 0, 217, 245
+	rotate: 90
+TOTAL-WIN/PUNTO-LUCE-total
+	bounds: 291, 1695, 62, 63
+	offsets: 3, 2, 67, 68
+	rotate: 90
+TOTAL-WIN/ombra-box
+	bounds: 305, 1480, 537, 158
+	offsets: 3, 3, 543, 166
+TOTAL-WIN/ombra-gioiello
+	bounds: 1793, 1604, 251, 153
+	offsets: 11, 11, 273, 175
+TOTAL-WIN/testo-hai vinto
+	bounds: 1, 1722, 289, 35
+scritte_FS/scritta_+8
+	bounds: 1, 932, 393, 286
+	offsets: 3, 2, 400, 290
+scritte_FS/scritta_freespin
+	bounds: 516, 1217, 888, 232
+	offsets: 6, 25, 900, 281
+scritte_vincite/big
+	bounds: 1143, 778, 603, 323
+	offsets: 1, 1, 605, 325
+scritte_vincite/epic
+	bounds: 1128, 454, 773, 323
+	offsets: 4, 0, 782, 325
+scritte_vincite/mega
+	bounds: 1, 250, 1034, 323
+	offsets: 1, 0, 1035, 324
+scritte_vincite/total
+	bounds: 1, 574, 1126, 322
+	offsets: 1, 1, 1131, 325
+scritte_vincite/win
+	bounds: 395, 897, 747, 319
+	offsets: 1, 2, 749, 324
+
+SPINE-ARES-BIG-TOTALWIN_2.webp
+	size: 1840, 1886
+	filter: Linear, Linear
+	pma: true
+BIG-SUPER-MEGA/BAGLIORE RETRO
+	bounds: 1, 950, 961, 609
+	offsets: 27, 0, 1014, 609
+TOTAL-WIN/BAGLIORE-BIG
+	bounds: 1, 1, 1069, 694
+	offsets: 25, 9, 1122, 720
+TOTAL-WIN/cerchio-rosso-total
+	bounds: 963, 696, 876, 643
+	offsets: 187, 29, 1249, 700
+bagliore1
+	bounds: 1096, 1340, 587, 545
+	offsets: 6, 0, 600, 545
+scritte_vincite/super
+	bounds: 1, 1560, 1094, 325
+	offsets: 1, 0, 1095, 325
+
+SPINE-ARES-BIG-TOTALWIN_3.webp
+	size: 1620, 1284
+	filter: Linear, Linear
+	pma: true
+TOTAL-WIN/CORNICE-TOTALWIN
+	bounds: 1, 153, 1130, 894
+	rotate: 90
+TOTAL-WIN/rettangolo
+	bounds: 896, 1, 1282, 723
+	rotate: 90

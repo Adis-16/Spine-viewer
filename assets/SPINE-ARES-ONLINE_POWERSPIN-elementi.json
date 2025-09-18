@@ -1,0 +1,5325 @@
+{
+"skeleton": {
+	"hash": "npcxasynwM8",
+	"spine": "4.1-from-4.2.43",
+	"x": -1196.5,
+	"y": -1075.21,
+	"width": 2393,
+	"height": 2150.43,
+	"images": "./images/",
+	"audio": "/Users/elenaferrari/Documents/ONLINE/ARES-PC/SPINE/../../../ONLINE/ARES-PC/SPINE"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "BAGLIORE-back", "parent": "root", "y": 41.52, "scaleX": 1.1325, "scaleY": 1.2, "color": "14fd01ff" },
+	{ "name": "FS", "parent": "root", "color": "01b7feff", "icon": "sword" },
+	{
+		"name": "BAGLIORE RETRO",
+		"parent": "root",
+		"y": -110.61,
+		"scaleX": 1.5,
+		"scaleY": 1.5,
+		"color": "01dffeff",
+		"icon": "star"
+	},
+	{ "name": "ANIM_FLASH-OLD", "parent": "root" },
+	{ "name": "PALLETTA", "parent": "ANIM_FLASH-OLD", "scaleX": 1.84, "scaleY": 1.84 },
+	{ "name": "tondo-fuoco", "parent": "ANIM_FLASH-OLD", "scaleX": 1.8, "scaleY": 1.88 },
+	{ "name": "v_rettangolo", "parent": "root", "y": -958.75 },
+	{ "name": "maschera-bg-totalwin", "parent": "root", "x": -1.19, "y": -6.2 },
+	{
+		"name": "LOCK-SPIN",
+		"parent": "root",
+		"y": -223.41,
+		"scaleX": 0.55,
+		"scaleY": 0.55,
+		"color": "fdcf01ff",
+		"icon": "chevron"
+	},
+	{ "name": "thunder", "parent": "LOCK-SPIN", "x": 518.55, "color": "fdcf01ff", "icon": "chevron" },
+	{ "name": "particellare-thunder", "parent": "thunder", "x": 2.05, "color": "fdcf01ff", "icon": "chevron" },
+	{ "name": "TOTALWIN-BONUS", "parent": "root", "color": "fc6a01ff", "icon": "fire" },
+	{ "name": "scritta-TotalWin", "parent": "TOTALWIN-BONUS", "y": 378.26, "scaleX": 0.5, "scaleY": 0.42, "color": "fc6a01ff" },
+	{ "name": "BOX-tatlwin", "parent": "TOTALWIN-BONUS", "y": 267.84, "scaleX": 0.75, "scaleY": 0.75, "color": "fc6a01ff" },
+	{
+		"name": "ALA3",
+		"parent": "BOX-tatlwin",
+		"x": -339.54,
+		"y": -87.59,
+		"scaleX": 0.8,
+		"scaleY": 0.75,
+		"shearX": 180,
+		"icon": "arrowLeft"
+	},
+	{
+		"name": "PUNTO-LUCE-total10",
+		"parent": "ALA3",
+		"x": 110.43,
+		"y": 170.17,
+		"scaleX": 1.3,
+		"scaleY": 1.5,
+		"icon": "star"
+	},
+	{
+		"name": "ALA4",
+		"parent": "BOX-tatlwin",
+		"x": 339.54,
+		"y": -87.59,
+		"scaleX": 0.8,
+		"scaleY": 0.75,
+		"icon": "arrowRight"
+	},
+	{ "name": "PUNTO-LUCE-total11", "parent": "ALA4", "x": 110.43, "y": 170.17, "scaleX": 1.3, "icon": "star" },
+	{ "name": "PUNTO-LUCE-total12", "parent": "TOTALWIN-BONUS", "x": 358.49, "y": 337.45, "scaleX": 1.3, "icon": "star" },
+	{ "name": "particellare-bagliore", "parent": "root", "y": 294.47, "scaleX": 3, "scaleY": 3, "icon": "particles" },
+	{
+		"name": "BAGLIORE-back2",
+		"parent": "FS",
+		"y": -115.38,
+		"scaleX": 1.2824,
+		"scaleY": 0.7128,
+		"color": "00b3fcff",
+		"icon": "star"
+	},
+	{ "name": "maschera-bg-freespinon", "parent": "root", "x": -1.19, "y": -6.2 },
+	{ "name": "cerchio-fuoco-arancio", "parent": "PALLETTA", "x": -34.55 },
+	{
+		"name": "RESPIN",
+		"parent": "root",
+		"x": 59.58,
+		"y": 221.49,
+		"scaleX": 0.36,
+		"scaleY": 0.36,
+		"color": "1dfd03ff",
+		"icon": "triangle"
+	},
+	{ "name": "BOX-ON", "parent": "RESPIN", "x": -16.1, "y": 102.56 },
+	{ "name": "box-on", "parent": "BOX-ON", "x": -358.31, "y": -7.25 },
+	{ "name": "box-on2", "parent": "BOX-ON", "x": 16.1, "y": -7.14 },
+	{ "name": "box-on3", "parent": "BOX-ON", "x": 400.89, "y": -7.14 },
+	{ "name": "box-grid-respin", "parent": "RESPIN", "y": -0.13, "color": "43fd01ff" },
+	{ "name": "ala-box-respin-sn", "parent": "box-grid-respin", "x": -631.69, "y": 66.94, "scaleX": 1.1 },
+	{
+		"name": "ala-box-respin-sn2",
+		"parent": "box-grid-respin",
+		"rotation": 4,
+		"x": 617.02,
+		"y": 66.94,
+		"scaleX": 1.1,
+		"scaleY": 1.1,
+		"shearX": 180
+	},
+	{ "name": "maschera", "parent": "RESPIN", "x": 562.16, "y": 102.34 },
+	{ "name": "ANIM_FLASH", "parent": "root", "scaleX": 0.5, "scaleY": 0.5, "icon": "arrowLeft" },
+	{ "name": "V_tendina", "parent": "ANIM_FLASH" },
+	{ "name": "V_tendina-sn", "parent": "ANIM_FLASH", "shearX": 180, "icon": "arrowLeft" },
+	{ "name": "tendina", "parent": "ANIM_FLASH" },
+	{ "name": "tendina-sn", "parent": "ANIM_FLASH", "shearX": 180 }
+],
+"slots": [
+	{ "name": "maschera-bg-totalwin", "bone": "maschera-bg-totalwin" },
+	{ "name": "v_rettangolo", "bone": "v_rettangolo", "attachment": "TOTAL-WIN/v_rettangolo" },
+	{ "name": "rettangolo", "bone": "v_rettangolo", "attachment": "TOTAL-WIN/v_rettangolo" },
+	{ "name": "BAGLIORE-BIG", "bone": "BAGLIORE-back", "attachment": "TOTAL-WIN/BAGLIORE-BIG", "blend": "additive" },
+	{ "name": "LOGO-LOCK_SPIN", "bone": "LOCK-SPIN", "attachment": "LOCK-SPIN/LOGO-LOCK_SPIN" },
+	{ "name": "additivo-box", "bone": "LOCK-SPIN", "color": "ffffff28", "attachment": "LOCK-SPIN/LOGO-LOCK_SPIN", "blend": "additive" },
+	{ "name": "thunder", "bone": "thunder", "attachment": "LOCK-SPIN/thunder-LOCK_SPIN" },
+	{ "name": "particellare-thunder", "bone": "particellare-thunder", "attachment": "PARTICELLARI/sequenza-fuoco-thunder/lock-spin_", "blend": "additive" },
+	{ "name": "PALLETTA", "bone": "PALLETTA", "attachment": "PALLETTE/PALLETTA-ROSSA/PALLETTA" },
+	{ "name": "tondo-fuoco", "bone": "tondo-fuoco", "attachment": "ELEMENTI-COMUNI/cerchio-fuoco-3-sfoca", "blend": "additive" },
+	{ "name": "cerchio-fuoco-arancio", "bone": "cerchio-fuoco-arancio", "color": "fd2903ff", "attachment": "ELEMENTI-COMUNI/cerchio-fuoco-arancio", "blend": "additive" },
+	{ "name": "additivo-palletta", "bone": "PALLETTA", "color": "ffffff32", "attachment": "PALLETTE/PALLETTA-ROSSA/bagliore", "blend": "additive" },
+	{ "name": "ALA4", "bone": "ALA4", "attachment": "TOTAL-WIN/ALA" },
+	{ "name": "ALA3", "bone": "ALA3", "attachment": "TOTAL-WIN/ALA" },
+	{ "name": "BOX-totalwin-Bonus", "bone": "BOX-tatlwin", "attachment": "TOTAL-WIN-BONUS/BOX-totalwin-bonus" },
+	{ "name": "particellare-bagliore", "bone": "particellare-bagliore", "attachment": "PARTICELLARI/sun5/sun5_", "blend": "additive" },
+	{ "name": "BG_BOX-totalwin-bonus", "bone": "BOX-tatlwin", "attachment": "TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus" },
+	{ "name": "dditivo-bg-box", "bone": "BOX-tatlwin", "color": "ffffff32", "attachment": "TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus", "blend": "additive" },
+	{ "name": "additivo-box-total", "bone": "BOX-tatlwin", "attachment": "TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus2", "blend": "additive" },
+	{ "name": "gioiello", "bone": "BOX-tatlwin", "attachment": "TOTAL-WIN-BONUS/GIOIELLO" },
+	{ "name": "additivo-gioiello", "bone": "BOX-tatlwin", "attachment": "TOTAL-WIN-BONUS/GIOIELLO", "blend": "additive" },
+	{ "name": "scritta-TotalWin", "bone": "scritta-TotalWin", "attachment": "TOTAL-WIN-BONUS/scritta_TOTALWIN" },
+	{ "name": "additivo-totalwin", "bone": "scritta-TotalWin", "attachment": "TOTAL-WIN-BONUS/scritta_TOTALWIN", "blend": "additive" },
+	{ "name": "PUNTO-LUCE-total11", "bone": "PUNTO-LUCE-total11", "attachment": "TOTAL-WIN/PUNTO-LUCE-total", "blend": "additive" },
+	{ "name": "PUNTO-LUCE-total12", "bone": "PUNTO-LUCE-total12", "attachment": "TOTAL-WIN/PUNTO-LUCE-total", "blend": "additive" },
+	{ "name": "PUNTO-LUCE-total10", "bone": "PUNTO-LUCE-total10", "attachment": "TOTAL-WIN/PUNTO-LUCE-total", "blend": "additive" },
+	{ "name": "maschera-bg-freespinon", "bone": "maschera-bg-freespinon" },
+	{ "name": "BAGLIORE RETRO", "bone": "BAGLIORE RETRO", "attachment": "BIG-SUPER-MEGA/BAGLIORE RETRO", "blend": "additive" },
+	{ "name": "BAGLIORE-BIG2", "bone": "BAGLIORE-back2", "attachment": "TOTAL-WIN/BAGLIORE-BIG", "blend": "additive" },
+	{ "name": "ala-box-respin-sn", "bone": "ala-box-respin-sn" },
+	{ "name": "ala-box-respin-sn2", "bone": "ala-box-respin-sn2" },
+	{ "name": "box-grid-respin", "bone": "box-grid-respin" },
+	{ "name": "box-respin", "bone": "BOX-ON" },
+	{ "name": "respin", "bone": "maschera", "attachment": "respin" },
+	{ "name": "box-on", "bone": "box-on" },
+	{ "name": "box-on2", "bone": "box-on2" },
+	{ "name": "box-on3", "bone": "box-on3" },
+	{ "name": "box-crosta", "bone": "box-on", "blend": "additive" },
+	{ "name": "box-crosta2", "bone": "box-on2", "blend": "additive" },
+	{ "name": "box-crosta3", "bone": "box-on3", "blend": "additive" },
+	{ "name": "punto-luce-3", "bone": "RESPIN", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto-luce-4", "bone": "RESPIN", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto-luce-5", "bone": "RESPIN", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto-luce-6", "bone": "RESPIN", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "tendina", "bone": "tendina", "attachment": "ANIM_FLASH/tendina" },
+	{ "name": "tendina-sn", "bone": "tendina-sn", "attachment": "ANIM_FLASH/tendina" },
+	{ "name": "additivo", "bone": "tendina", "blend": "additive" },
+	{ "name": "additivo2", "bone": "tendina-sn", "attachment": "ANIM_FLASH/tendina", "blend": "additive" },
+	{ "name": "V_tendina", "bone": "V_tendina" },
+	{ "name": "V_additivo", "bone": "V_tendina", "blend": "additive" },
+	{ "name": "V_tendina-sn", "bone": "V_tendina-sn" },
+	{ "name": "V_additivo-sn", "bone": "V_tendina-sn", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"additivo": {
+				"ANIM_FLASH/tendina": { "x": 320, "width": 1280, "height": 1440 }
+			},
+			"additivo-box": {
+				"LOCK-SPIN/LOGO-LOCK_SPIN": { "width": 1740, "height": 363 }
+			},
+			"additivo-box-total": {
+				"TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus2": {
+					"path": "TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus",
+					"x": 5.7,
+					"y": -21.39,
+					"scaleX": 1.23,
+					"scaleY": 1.48,
+					"width": 614,
+					"height": 132
+				}
+			},
+			"additivo-gioiello": {
+				"TOTAL-WIN-BONUS/GIOIELLO": { "y": -145.49, "scaleX": 0.96, "scaleY": 0.92, "width": 402, "height": 142 }
+			},
+			"additivo-palletta": {
+				"PALLETTE/PALLETTA-ROSSA/bagliore": { "y": 6.16, "width": 551, "height": 563 }
+			},
+			"additivo-totalwin": {
+				"TOTAL-WIN-BONUS/scritta_TOTALWIN": { "y": -21, "width": 1046, "height": 243 }
+			},
+			"additivo2": {
+				"ANIM_FLASH/tendina": { "x": 320, "width": 1280, "height": 1440 }
+			},
+			"ala-box-respin-sn": {
+				"RESPIN/ala-box-respin": { "x": 57.13, "y": 25.2, "width": 271, "height": 259 }
+			},
+			"ala-box-respin-sn2": {
+				"RESPIN/ala-box-respin": { "x": 41.43, "y": 25.2, "width": 271, "height": 259 }
+			},
+			"ALA3": {
+				"TOTAL-WIN/ALA": { "x": 47.25, "y": 112.22, "width": 165, "height": 303 }
+			},
+			"ALA4": {
+				"TOTAL-WIN/ALA": { "x": 47.25, "y": 112.22, "width": 165, "height": 303 }
+			},
+			"BAGLIORE-BIG": {
+				"TOTAL-WIN/BAGLIORE-BIG": { "x": -9.75, "y": -2.61, "width": 1080, "height": 724 }
+			},
+			"BAGLIORE-BIG2": {
+				"TOTAL-WIN/BAGLIORE-BIG": { "x": -9.75, "y": -2.61, "width": 1080, "height": 724 }
+			},
+			"BAGLIORE RETRO": {
+				"BIG-SUPER-MEGA/BAGLIORE RETRO": { "scaleX": 1.0091, "scaleY": 1.0091, "width": 1014, "height": 750 }
+			},
+			"BG_BOX-totalwin-bonus": {
+				"TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus": { "x": 5.7, "y": -21.39, "scaleX": 1.23, "scaleY": 1.48, "width": 614, "height": 132 }
+			},
+			"box-crosta": {
+				"RESPIN/box-crosta": { "x": 8.11, "y": 6.72, "width": 339, "height": 78 }
+			},
+			"box-crosta2": {
+				"RESPIN/box-crosta": { "x": 11.76, "y": 6.72, "width": 339, "height": 78 }
+			},
+			"box-crosta3": {
+				"RESPIN/box-crosta": { "x": 10.08, "y": 6.72, "width": 339, "height": 78 }
+			},
+			"box-grid-respin": {
+				"RESPIN/box-grid-respin": { "width": 1263, "height": 235 }
+			},
+			"box-on": {
+				"RESPIN/box-on": { "x": -5.34, "y": 6.72, "width": 365, "height": 78 }
+			},
+			"box-on2": {
+				"RESPIN/box-on": { "y": 6.72, "width": 365, "height": 78 }
+			},
+			"box-on3": {
+				"RESPIN/box-on": { "x": -3.36, "y": 6.72, "width": 365, "height": 78 }
+			},
+			"box-respin": {
+				"RESPIN/box-respin": { "x": 16.1, "y": -70.3, "width": 1245, "height": 233 }
+			},
+			"BOX-totalwin-Bonus": {
+				"TOTAL-WIN-BONUS/BOX-totalwin-bonus": { "y": -26.33, "scaleX": 0.7, "scaleY": 0.8, "width": 1128, "height": 268 }
+			},
+			"cerchio-fuoco-arancio": {
+				"ELEMENTI-COMUNI/cerchio-fuoco-arancio": { "scaleX": 3.5, "scaleY": 3.5, "width": 328, "height": 328 }
+			},
+			"dditivo-bg-box": {
+				"TOTAL-WIN-BONUS/BG_BOX-totalwin-bonus": { "y": -43.61, "width": 614, "height": 132 }
+			},
+			"gioiello": {
+				"TOTAL-WIN-BONUS/GIOIELLO": { "y": -145.49, "scaleX": 0.96, "scaleY": 0.92, "width": 402, "height": 142 }
+			},
+			"LOGO-LOCK_SPIN": {
+				"LOCK-SPIN/LOGO-LOCK_SPIN": { "width": 1740, "height": 363 }
+			},
+			"maschera-bg-freespinon": {
+				"maschera-bg-totalwin": {
+					"type": "clipping",
+					"end": "maschera-bg-freespinon",
+					"vertexCount": 4,
+					"vertices": [ -556.3, 975.25, 555.38, 981.5, 574.85, -530.66, -577.07, -520.36 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"maschera-bg-totalwin": {
+				"maschera-bg-totalwin": {
+					"type": "clipping",
+					"end": "maschera-bg-totalwin",
+					"vertexCount": 4,
+					"vertices": [ -556.3, 975.25, 555.38, 981.5, 574.85, -530.66, -577.07, -520.36 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"PALLETTA": {
+				"PALLETTE/PALLETTA-ROSSA/PALLETTA": { "width": 710, "height": 710 }
+			},
+			"particellare-bagliore": {
+				"PARTICELLARI/sun5/sun5_": {
+					"scaleX": 1.2304,
+					"scaleY": 0.7267,
+					"width": 300,
+					"height": 300,
+					"sequence": { "count": 20, "start": 0, "digits": 4 }
+				},
+				"PARTICELLARI/sun5/sun5_0001": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0002": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0003": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0004": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0005": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0006": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0007": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0008": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0009": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0010": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0011": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0012": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0013": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0014": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0015": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0016": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0017": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0018": { "width": 300, "height": 300 },
+				"PARTICELLARI/sun5/sun5_0019": { "width": 300, "height": 300 }
+			},
+			"particellare-thunder": {
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_": {
+					"x": -8.1,
+					"y": 10.22,
+					"width": 500,
+					"height": 700,
+					"sequence": { "count": 30, "start": 0, "digits": 2 }
+				},
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_01": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_02": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_03": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_04": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_05": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_06": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_07": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_08": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_09": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_10": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_11": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_12": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_13": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_14": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_15": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_16": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_17": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_18": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_19": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_20": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_21": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_22": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_23": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_24": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_25": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_26": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_27": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_28": { "x": -520.6, "width": 500, "height": 700 },
+				"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_29": { "width": 500, "height": 700 }
+			},
+			"punto-luce-3": {
+				"ELEMENTI-COMUNI/punto-luce": {
+					"x": 587.89,
+					"y": 109.25,
+					"scaleX": 1.082,
+					"scaleY": 0.7092,
+					"rotation": 22.95,
+					"width": 112,
+					"height": 112
+				}
+			},
+			"punto-luce-4": {
+				"ELEMENTI-COMUNI/punto-luce": {
+					"x": -587.98,
+					"y": 109.25,
+					"scaleX": 1.082,
+					"scaleY": 0.7092,
+					"rotation": 132.3,
+					"width": 112,
+					"height": 112
+				}
+			},
+			"punto-luce-5": {
+				"ELEMENTI-COMUNI/punto-luce": {
+					"x": -189.12,
+					"y": 101.72,
+					"scaleX": 1.082,
+					"scaleY": 0.7092,
+					"rotation": 132.3,
+					"width": 112,
+					"height": 112
+				}
+			},
+			"punto-luce-6": {
+				"ELEMENTI-COMUNI/punto-luce": {
+					"x": 190.92,
+					"y": 101.72,
+					"scaleX": 1.082,
+					"scaleY": 0.7092,
+					"rotation": 132.3,
+					"width": 112,
+					"height": 112
+				}
+			},
+			"PUNTO-LUCE-total10": {
+				"TOTAL-WIN/PUNTO-LUCE-total": { "width": 67, "height": 68 }
+			},
+			"PUNTO-LUCE-total11": {
+				"TOTAL-WIN/PUNTO-LUCE-total": { "width": 67, "height": 68 }
+			},
+			"PUNTO-LUCE-total12": {
+				"TOTAL-WIN/PUNTO-LUCE-total": { "width": 67, "height": 68 }
+			},
+			"respin": {
+				"respin": {
+					"type": "clipping",
+					"end": "box-on3",
+					"vertexCount": 4,
+					"vertices": [ -366.36, 48.76, 3.96, 47.52, 3.96, -43.36, -366.97, -43.36 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"rettangolo": {
+				"TOTAL-WIN/v_rettangolo": { "y": 958.75, "rotation": 90, "width": 723, "height": 1282 }
+			},
+			"scritta-TotalWin": {
+				"TOTAL-WIN-BONUS/scritta_TOTALWIN": { "y": -21, "width": 1046, "height": 243 }
+			},
+			"tendina": {
+				"ANIM_FLASH/tendina": { "x": 320, "width": 1280, "height": 1440 }
+			},
+			"tendina-sn": {
+				"ANIM_FLASH/tendina": { "x": 320, "width": 1280, "height": 1440 }
+			},
+			"thunder": {
+				"LOCK-SPIN/thunder-LOCK_SPIN": { "width": 239, "height": 363 }
+			},
+			"tondo-fuoco": {
+				"ELEMENTI-COMUNI/cerchio-fuoco-3-sfoca": { "scaleX": 5.2135, "scaleY": 5.0169, "width": 255, "height": 228 }
+			},
+			"V_additivo": {
+				"ANIM_FLASH/V_tendina": { "x": 180, "width": 720, "height": 2560 }
+			},
+			"V_additivo-sn": {
+				"ANIM_FLASH/V_tendina": { "x": 180, "width": 720, "height": 2560 }
+			},
+			"v_rettangolo": {
+				"TOTAL-WIN/v_rettangolo": { "y": 958.75, "width": 723, "height": 1282 }
+			},
+			"V_tendina": {
+				"ANIM_FLASH/V_tendina": { "x": 180, "width": 720, "height": 2560 }
+			},
+			"V_tendina-sn": {
+				"ANIM_FLASH/V_tendina": { "x": 180, "width": 720, "height": 2560 }
+			}
+		}
+	}
+],
+"events": {
+	"cambio-tavolo": {},
+	"respin-out": {}
+},
+"animations": {
+	"Anim_flash-cambio-tavolo/Anim_flash": {
+		"slots": {
+			"additivo": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "ANIM_FLASH/tendina" }
+				]
+			},
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"tendina": {
+				"translate": [
+					{ "x": 1606 },
+					{ "time": 0.3333, "x": 320, "curve": "stepped" },
+					{ "time": 1, "x": 320 },
+					{ "time": 1.6667, "x": 1606 }
+				]
+			},
+			"tendina-sn": {
+				"translate": [
+					{ "x": -1606 },
+					{ "time": 0.3333, "x": -320, "curve": "stepped" },
+					{ "time": 1, "x": -320 },
+					{ "time": 1.6667, "x": -1606 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "cambio-tavolo", "int": 1 }
+		]
+	},
+	"Anim_flash-cambio-tavolo/V_Anim_flash": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"V_additivo": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "ANIM_FLASH/V_tendina" }
+				]
+			},
+			"V_additivo-sn": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "ANIM_FLASH/V_tendina" }
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"V_tendina": {
+				"attachment": [
+					{ "name": "ANIM_FLASH/V_tendina" }
+				]
+			},
+			"V_tendina-sn": {
+				"attachment": [
+					{ "name": "ANIM_FLASH/V_tendina" }
+				]
+			}
+		},
+		"bones": {
+			"V_tendina": {
+				"translate": [
+					{ "x": 908 },
+					{ "time": 0.3333, "x": 180, "curve": "stepped" },
+					{ "time": 1, "x": 180 },
+					{ "time": 1.6667, "x": 908 }
+				]
+			},
+			"V_tendina-sn": {
+				"translate": [
+					{ "x": -908 },
+					{ "time": 0.3333, "x": -180, "curve": "stepped" },
+					{ "time": 1, "x": -180 },
+					{ "time": 1.6667, "x": -908 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "cambio-tavolo", "int": 1 }
+		]
+	},
+	"Anim_flash-cambio-tavolo-OLD/Anim_flash": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff32" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"rgba": [
+					{ "color": "fd290300" },
+					{ "time": 0.0667, "color": "fd2903ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"PALLETTA": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": -120 }
+				]
+			},
+			"tondo-fuoco": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": 240 }
+				]
+			},
+			"ANIM_FLASH-OLD": {
+				"translate": [
+					{ "x": -1150.24 },
+					{ "time": 0.6667, "x": 1198.35 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "cambio-tavolo", "int": 1 }
+		]
+	},
+	"Anim_flash-cambio-tavolo-OLD/V_Anim_flash": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff32" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"rgba": [
+					{ "color": "fd290300" },
+					{ "time": 0.0667, "color": "fd2903ff" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0.6667 }
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"tondo-fuoco": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": 240 }
+				]
+			},
+			"ANIM_FLASH-OLD": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "value": -120 }
+				],
+				"translate": [
+					{ "y": -1050.03 },
+					{ "time": 0.6667, "y": 1445 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3, "name": "cambio-tavolo", "int": 1 }
+		]
+	},
+	"lock-n-spin/Lock-n-spin": {
+		"slots": {
+			"additivo": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 2.1667, "color": "ffffffb4" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.5, "name": "ANIM_FLASH/tendina" }
+				]
+			},
+			"additivo-box": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffff28" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "LOCK-SPIN/LOGO-LOCK_SPIN" },
+					{ "time": 1.8333 }
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 2.1667, "color": "ffffffb4" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{},
+					{ "time": 1.5, "name": "ANIM_FLASH/tendina" }
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"rgba": [
+					{ "color": "fd290300", "curve": "stepped" },
+					{ "time": 1.5333, "color": "fd290300" },
+					{ "time": 1.6, "color": "fd2903ff" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1.8333 }
+				]
+			},
+			"PALLETTA": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{},
+					{ "time": 0.3333, "name": "PARTICELLARI/sequenza-fuoco-thunder/lock-spin_" },
+					{ "time": 1.8333 }
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffaa", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffffaa" },
+					{ "time": 1.8667, "color": "ffffffff" },
+					{ "time": 2.2, "color": "ffffff00" }
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{},
+					{ "time": 1.5, "name": "ANIM_FLASH/tendina" }
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{},
+					{ "time": 1.5, "name": "ANIM_FLASH/tendina" }
+				]
+			},
+			"thunder": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1.8333 }
+				]
+			},
+			"tondo-fuoco": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffff00" },
+					{ "time": 1.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"tondo-fuoco": {
+				"rotate": [
+					{ "time": 1.5333 },
+					{ "time": 2.2, "value": 240 }
+				]
+			},
+			"LOCK-SPIN": {
+				"translate": [
+					{ "x": 52.36, "y": 212.62 }
+				],
+				"scale": [
+					{
+						"x": 3.636,
+						"y": 3.636,
+						"curve": [ 0.061, 3.139, 0.106, 0.636, 0.054, 3.286, 0.106, 0.636 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.636,
+						"y": 0.636,
+						"curve": [ 0.722, 0.636, 1.278, 0.767, 0.722, 0.636, 1.278, 0.767 ]
+					},
+					{ "time": 1.8333, "x": 0.873, "y": 0.873 }
+				]
+			},
+			"particellare-thunder": {
+				"translate": [
+					{ "x": 9.62, "y": -7.69 }
+				]
+			},
+			"thunder": {
+				"scale": [
+					{
+						"curve": [ 0.1, 1.017, 0.2, 1.025, 0.1, 1.017, 0.2, 1.028 ]
+					},
+					{
+						"time": 0.3,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.811, 1.175, 1.322, 1.317, 0.811, 1.162, 1.322, 1.283 ]
+					},
+					{ "time": 1.8333, "x": 1.45, "y": 1.4 }
+				]
+			},
+			"ANIM_FLASH-OLD": {
+				"translate": [
+					{ "x": -1150.24 }
+				]
+			},
+			"tendina": {
+				"translate": [
+					{ "x": 1606, "curve": "stepped" },
+					{ "time": 1.5, "x": 1606 },
+					{ "time": 1.8333, "x": 320, "curve": "stepped" },
+					{ "time": 2.5, "x": 320 },
+					{ "time": 3.1667, "x": 1606 }
+				]
+			},
+			"tendina-sn": {
+				"translate": [
+					{ "x": -1606, "curve": "stepped" },
+					{ "time": 1.5, "x": -1606 },
+					{ "time": 1.8333, "x": -320, "curve": "stepped" },
+					{ "time": 2.5, "x": -320 },
+					{ "time": 3.1667, "x": -1606 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"particellare-thunder": {
+					"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_": {
+						"sequence": [
+							{ "time": 0.3333, "mode": "once", "delay": 0.05 }
+						]
+					}
+				}
+			}
+		},
+		"events": [
+			{ "time": 1.7, "name": "cambio-tavolo", "int": 1 }
+		]
+	},
+	"lock-n-spin/V_Lock-n-spin": {
+		"slots": {
+			"additivo-box": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffff28" }
+				],
+				"attachment": [
+					{},
+					{ "time": 0.1667, "name": "LOCK-SPIN/LOGO-LOCK_SPIN" },
+					{ "time": 1.8333 }
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.7, "color": "ffffff00" },
+					{ "time": 1.8667, "color": "ffffff32" },
+					{ "time": 2.0333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"rgba": [
+					{ "color": "fd290300", "curve": "stepped" },
+					{ "time": 1.5333, "color": "fd290300" },
+					{ "time": 1.6, "color": "fd2903ff" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1.8333 }
+				]
+			},
+			"PALLETTA": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffff00" },
+					{ "time": 1.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{},
+					{ "time": 0.3333, "name": "PARTICELLARI/sequenza-fuoco-thunder/lock-spin_" },
+					{ "time": 1.8333 }
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 1.8333 }
+				]
+			},
+			"tondo-fuoco": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffff00" },
+					{ "time": 1.6, "color": "ffffffff" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"V_additivo": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 2.1667, "color": "ffffffb4" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.5, "name": "ANIM_FLASH/V_tendina" }
+				]
+			},
+			"V_additivo-sn": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffff00" },
+					{ "time": 2.1667, "color": "ffffffb4" },
+					{ "time": 2.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.5, "name": "ANIM_FLASH/V_tendina" }
+				]
+			},
+			"v_rettangolo": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffd2", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffffd2" },
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 2.2, "color": "ffffff00" }
+				]
+			},
+			"V_tendina": {
+				"attachment": [
+					{ "time": 1.5, "name": "ANIM_FLASH/V_tendina" }
+				]
+			},
+			"V_tendina-sn": {
+				"attachment": [
+					{ "time": 1.5, "name": "ANIM_FLASH/V_tendina" }
+				]
+			}
+		},
+		"bones": {
+			"tondo-fuoco": {
+				"rotate": [
+					{ "time": 1.5333 },
+					{ "time": 2.2, "value": 240 }
+				]
+			},
+			"LOCK-SPIN": {
+				"translate": [
+					{ "y": 194.89 }
+				],
+				"scale": [
+					{
+						"x": 3.636,
+						"y": 3.636,
+						"curve": [ 0.061, 3.139, 0.106, 0.545, 0.054, 3.286, 0.106, 0.545 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.545,
+						"y": 0.545,
+						"curve": [ 0.722, 0.545, 1.278, 0.621, 0.722, 0.545, 1.278, 0.621 ]
+					},
+					{ "time": 1.8333, "x": 0.727, "y": 0.727 }
+				]
+			},
+			"particellare-thunder": {
+				"translate": [
+					{ "x": 9.62, "y": -7.69 }
+				]
+			},
+			"thunder": {
+				"scale": [
+					{
+						"curve": [ 0.1, 1.017, 0.2, 1.025, 0.1, 1.017, 0.2, 1.028 ]
+					},
+					{
+						"time": 0.3,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.811, 1.175, 1.322, 1.317, 0.811, 1.162, 1.322, 1.283 ]
+					},
+					{ "time": 1.8333, "x": 1.45, "y": 1.4 }
+				]
+			},
+			"ANIM_FLASH-OLD": {
+				"rotate": [
+					{ "time": 1.5333 },
+					{ "time": 2.2, "value": -120 }
+				],
+				"translate": [
+					{ "y": -1050.03, "curve": "stepped" },
+					{ "time": 1.5333, "y": -1050.03 },
+					{ "time": 2.2, "y": 1445 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"V_tendina": {
+				"translate": [
+					{ "x": 908, "curve": "stepped" },
+					{ "time": 1.5, "x": 908 },
+					{ "time": 1.8333, "x": 180, "curve": "stepped" },
+					{ "time": 2.5, "x": 180 },
+					{ "time": 3.1667, "x": 908 }
+				]
+			},
+			"V_tendina-sn": {
+				"translate": [
+					{ "x": -908, "curve": "stepped" },
+					{ "time": 1.5, "x": -908 },
+					{ "time": 1.8333, "x": -180, "curve": "stepped" },
+					{ "time": 2.5, "x": -180 },
+					{ "time": 3.1667, "x": -908 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"particellare-thunder": {
+					"PARTICELLARI/sequenza-fuoco-thunder/lock-spin_": {
+						"sequence": [
+							{ "time": 0.3333, "mode": "once", "delay": 0.05 }
+						]
+					}
+				}
+			}
+		},
+		"events": [
+			{ "time": 1.8, "name": "cambio-tavolo", "int": 1 }
+		]
+	},
+	"respin-Bonus/respinon-x0": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		}
+	},
+	"respin-Bonus/respinon-x0-up-x1": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"box-on": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"maschera": {
+				"translate": [
+					{ "x": -399.83 },
+					{ "time": 0.5, "x": -1.08 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"respin": {
+					"respin": {
+						"deform": [
+							{
+								"vertices": [ -757.8824, 0.00928, -757.8824, 0.00928, -757.8824, 0.00928, -757.8824 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"respin-Bonus/respinon-x1": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		}
+	},
+	"respin-Bonus/respinon-x1-to-x0": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"box-crosta": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffff78" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"maschera": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -372.99 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"respin": {
+					"respin": {
+						"deform": [
+							{
+								"vertices": [ -759.91583, 0.01099, -759.91583, 0.01099, -759.91583, 0.01099, -759.91583, 0.01099 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"respin-Bonus/respinon-x1-up-x2": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"box-crosta": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffff46" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "RESPIN/box-crosta" }
+				]
+			},
+			"box-on": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"box-on2": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"maschera": {
+				"translate": [
+					{ "x": -1.08 },
+					{ "time": 0.5, "x": 376.86 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"respin": {
+					"respin": {
+						"deform": [
+							{
+								"vertices": [ -757.8824, 0.00928, -757.8824, 0.00928, -757.8824, 0.00928, -757.8824 ]
+							}
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "respin", "offset": 1 }
+				]
+			}
+		]
+	},
+	"respin-Bonus/respinon-x2": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		}
+	},
+	"respin-Bonus/respinon-x2-to-x1": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"box-crosta": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffff78" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "RESPIN/box-crosta" }
+				]
+			},
+			"box-crosta2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffff78" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"box-on2": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"maschera": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "x": -374.92 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"respin": {
+					"respin": {
+						"deform": [
+							{
+								"vertices": [ -378.9497, 0.00708, -378.9497, 0.00708, -378.9497, 0.00708, -378.9497 ]
+							}
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "respin", "offset": 1 }
+				]
+			}
+		]
+	},
+	"respin-Bonus/respinon-x2-up-x3": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"box-crosta": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffff46" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "RESPIN/box-crosta" }
+				]
+			},
+			"box-crosta2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffff46" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "RESPIN/box-crosta" }
+				]
+			},
+			"box-on": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"box-on2": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"box-on3": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"maschera": {
+				"translate": [
+					{ "x": 388.8 },
+					{ "time": 0.5, "x": 756.8 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"respin": {
+					"respin": {
+						"deform": [
+							{
+								"vertices": [ -757.8824, 0.00928, -757.8824, 0.00928, -757.8824, 0.00928, -757.8824 ]
+							}
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "respin", "offset": 2 }
+				]
+			}
+		]
+	},
+	"respin-Bonus/respinon-x3": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"respin": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		}
+	},
+	"respin-Bonus/respinon-x3-to-x2": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"box-crosta": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffff50" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "RESPIN/box-crosta" }
+				]
+			},
+			"box-crosta2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffff50" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "RESPIN/box-crosta" }
+				]
+			},
+			"box-on3": {
+				"attachment": [
+					{ "name": "RESPIN/box-on" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"attachment": [
+					{}
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"RESPIN": {
+				"translate": [
+					{ "y": -3.01 }
+				]
+			},
+			"maschera": {
+				"translate": [
+					{},
+					{ "time": 0.5, "x": -370.89 }
+				]
+			},
+			"BOX-ON": {
+				"translate": [
+					{ "y": -21.54 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "respin", "offset": 2 }
+				]
+			}
+		]
+	},
+	"TotalWin-Bonus/ToralWin-Bonus-enter": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffdc" }
+				]
+			},
+			"additivo-gioiello": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffff78" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffff96" }
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"ALA3": {
+				"attachment": [
+					{},
+					{ "time": 0.3333, "name": "TOTAL-WIN/ALA" }
+				]
+			},
+			"ALA4": {
+				"attachment": [
+					{},
+					{ "time": 0.3333, "name": "TOTAL-WIN/ALA" }
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffff64" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"BG_BOX-totalwin-bonus": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			},
+			"BOX-totalwin-Bonus": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffff32" }
+				]
+			},
+			"gioiello": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{},
+					{ "time": 0.5, "name": "TOTAL-WIN/PUNTO-LUCE-total" }
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{},
+					{ "time": 0.5, "name": "TOTAL-WIN/PUNTO-LUCE-total" }
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"scritta-TotalWin": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"BAGLIORE RETRO": {
+				"translate": [
+					{ "x": 61.04, "y": 392.13 }
+				],
+				"scale": [
+					{ "x": 0.4, "y": 0.4 }
+				]
+			},
+			"ALA3": {
+				"scale": [
+					{ "time": 0.3333, "x": 0 },
+					{ "time": 0.5 }
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"translate": [
+					{ "x": -13.64, "y": -34.57 }
+				],
+				"scale": [
+					{ "x": 0.769, "y": 0.667 }
+				]
+			},
+			"ALA4": {
+				"scale": [
+					{ "time": 0.3333, "x": 0 },
+					{ "time": 0.5 }
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"translate": [
+					{ "x": -3.41, "y": -25.47 }
+				],
+				"scale": [
+					{ "x": 0.769 }
+				]
+			},
+			"BOX-tatlwin": {
+				"translate": [
+					{ "y": -12.12 }
+				],
+				"scale": [
+					{
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.184, 2.261, 0.185, 0.9, 0.228, 2.992, 0.185, 0.9 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.389, 0.9, 0.444, 1.154, 0.389, 0.9, 0.444, 1.005 ]
+					},
+					{ "time": 0.5, "x": 1.154, "y": 1.005 }
+				]
+			},
+			"scritta-TotalWin": {
+				"translate": [
+					{ "y": -20.69 }
+				],
+				"scale": [
+					{
+						"x": 3,
+						"y": 3,
+						"curve": [ 0.184, 2.261, 0.185, 0.9, 0.228, 2.992, 0.185, 0.9 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.389, 0.9, 0.444, 1, 0.389, 0.9, 0.444, 1 ]
+					},
+					{ "time": 0.5 }
+				]
+			},
+			"particellare-bagliore": {
+				"translate": [
+					{ "x": 58.6, "y": -28.94 }
+				],
+				"scale": [
+					{ "x": 0.73, "y": 0.5 }
+				]
+			},
+			"TOTALWIN-BONUS": {
+				"translate": [
+					{ "x": 57.38, "y": 101.39 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"particellare-bagliore": {
+					"PARTICELLARI/sun5/sun5_": {
+						"sequence": [
+							{ "time": 0.5, "mode": "loop", "index": 11, "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "BAGLIORE RETRO", "offset": -15 }
+				]
+			}
+		],
+		"events": [
+			{ "time": 0.2, "name": "respin-out", "int": 2 }
+		]
+	},
+	"TotalWin-Bonus/ToralWin-Bonus-loop": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"rgba": [
+					{ "color": "ffffffdc" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffffdc" }
+				]
+			},
+			"additivo-gioiello": {
+				"rgba": [
+					{ "color": "ffffff78" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff78" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"rgba": [
+					{ "color": "ffffff96" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff96" }
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"rgba": [
+					{ "color": "ffffff96" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"rgba": [
+					{ "color": "ffffff64" },
+					{ "time": 0.3333, "color": "ffffff82" },
+					{ "time": 0.6667, "color": "ffffff64" }
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"rgba": [
+					{ "color": "ffffff32" },
+					{ "time": 0.3333, "color": "ffffff78" },
+					{ "time": 0.6667, "color": "ffffff32" }
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"BAGLIORE RETRO": {
+				"translate": [
+					{ "x": 61.04, "y": 392.13 }
+				],
+				"scale": [
+					{ "x": 0.4, "y": 0.4 }
+				]
+			},
+			"tondo-fuoco": {
+				"translate": [
+					{ "y": -12.06 }
+				]
+			},
+			"ALA3": {
+				"rotate": [
+					{
+						"curve": [ 0.133, 0, 0.2, -12 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -12,
+						"curve": [ 0.444, -12, 0.556, 0 ]
+					},
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.133, 1, 0.2, 0.96, 0.133, 1, 0.2, 0.894 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.96,
+						"y": 0.894,
+						"curve": [ 0.444, 0.96, 0.556, 1, 0.444, 0.894, 0.556, 1 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"rotate": [
+					{ "value": 360 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "x": -13.64, "y": -34.57 }
+				],
+				"scale": [
+					{ "x": 0.769, "y": 0.667 }
+				]
+			},
+			"ALA4": {
+				"rotate": [
+					{
+						"curve": [ 0.111, 0, 0.222, 12 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 12,
+						"curve": [ 0.444, 12, 0.556, 0 ]
+					},
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.111, 1, 0.222, 0.96, 0.111, 1, 0.222, 0.894 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.96,
+						"y": 0.894,
+						"curve": [ 0.444, 0.96, 0.556, 1, 0.444, 0.894, 0.556, 1 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"rotate": [
+					{ "value": 360 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "x": -3.41, "y": -25.47 }
+				],
+				"scale": [
+					{ "x": 0.769 }
+				]
+			},
+			"BOX-tatlwin": {
+				"translate": [
+					{ "y": -12.12 }
+				],
+				"scale": [
+					{ "x": 1.154, "y": 1.005 }
+				]
+			},
+			"scritta-TotalWin": {
+				"translate": [
+					{ "y": -20.69 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.111, 1, 0.222, 1.2, 0.111, 1, 0.225, 1.263 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.444, 1.2, 0.63, 1, 0.444, 1.136, 0.63, 1 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"rotate": [
+					{ "value": 360 }
+				],
+				"translate": [
+					{ "x": -339.06, "y": -144.02 }
+				],
+				"scale": [
+					{ "x": 0.769 }
+				]
+			},
+			"particellare-bagliore": {
+				"translate": [
+					{ "x": 58.6, "y": -28.94 }
+				],
+				"scale": [
+					{ "x": 0.73, "y": 0.5 }
+				]
+			},
+			"BAGLIORE-back2": {
+				"rotate": [
+					{ "value": 0.4 }
+				],
+				"translate": [
+					{ "x": 74.34, "y": 361.37 }
+				],
+				"scale": [
+					{ "x": 0.473, "y": 0.303 }
+				]
+			},
+			"TOTALWIN-BONUS": {
+				"translate": [
+					{ "x": 57.38, "y": 101.39 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"particellare-bagliore": {
+					"PARTICELLARI/sun5/sun5_": {
+						"sequence": [
+							{ "mode": "loop", "index": 19, "delay": 0.0333 },
+							{ "time": 0.6667, "mode": "once", "index": 19, "delay": 0.025 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "BAGLIORE RETRO", "offset": -14 },
+					{ "slot": "BAGLIORE-BIG2", "offset": -24 }
+				]
+			}
+		]
+	},
+	"TotalWin-Bonus/V_ToralWin-Bonus-enter": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"rgba": [
+					{ "color": "ffffffdc" }
+				]
+			},
+			"additivo-gioiello": {
+				"rgba": [
+					{ "color": "ffffff78" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"rgba": [
+					{ "color": "ffffff64" },
+					{ "time": 0.5, "color": "ffffff96" }
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffff64" }
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-bagliore": {
+				"rgba": [
+					{ "color": "ffffff80" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"attachment": [
+					{},
+					{ "time": 0.5, "name": "TOTAL-WIN/PUNTO-LUCE-total" }
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"attachment": [
+					{},
+					{ "time": 0.5, "name": "TOTAL-WIN/PUNTO-LUCE-total" }
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"BAGLIORE RETRO": {
+				"translate": [
+					{ "y": 330.38 }
+				],
+				"scale": [
+					{ "x": 0.356, "y": 0.311 },
+					{ "time": 0.5, "x": 0.333, "y": 0.267 }
+				]
+			},
+			"ALA3": {
+				"scale": [
+					{ "x": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0 },
+					{ "time": 0.5 }
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"translate": [
+					{ "x": -13.64, "y": -34.57 }
+				],
+				"scale": [
+					{ "x": 0.769, "y": 0.667 }
+				]
+			},
+			"ALA4": {
+				"scale": [
+					{ "x": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0 },
+					{ "time": 0.5 }
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"translate": [
+					{ "x": -3.41, "y": -25.47 }
+				],
+				"scale": [
+					{ "x": 0.769 }
+				]
+			},
+			"BOX-tatlwin": {
+				"translate": [
+					{ "y": -4.02 }
+				],
+				"scale": [
+					{
+						"x": 0.815,
+						"y": 0.843,
+						"curve": [ 0.184, 0.076, 0.185, 0.815, 0.228, 0.835, 0.185, 0.843 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.815,
+						"y": 0.843,
+						"curve": [ 0.389, 0.815, 0.444, 1.1, 0.389, 0.843, 0.444, 0.899 ]
+					},
+					{ "time": 0.5, "x": 1.1, "y": 0.899 }
+				]
+			},
+			"scritta-TotalWin": {
+				"translate": [
+					{ "y": -27.02 }
+				],
+				"scale": [
+					{
+						"x": 0.807,
+						"y": 0.807,
+						"curve": [ 0.184, 0.067, 0.185, 0.807, 0.228, 0.799, 0.185, 0.807 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.807,
+						"y": 0.807,
+						"curve": [ 0.389, 0.807, 0.444, 0.861, 0.389, 0.807, 0.444, 0.86 ]
+					},
+					{ "time": 0.5, "x": 0.861, "y": 0.86 }
+				]
+			},
+			"particellare-bagliore": {
+				"translate": [
+					{ "y": -80.81 }
+				],
+				"scale": [
+					{ "x": 0.674, "y": 0.319 }
+				]
+			},
+			"TOTALWIN-BONUS": {
+				"translate": [
+					{ "y": 40.35 }
+				],
+				"scale": [
+					{ "x": 0.6, "y": 0.6 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"particellare-bagliore": {
+					"PARTICELLARI/sun5/sun5_": {
+						"sequence": [
+							{ "mode": "loop", "index": 7, "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "BAGLIORE RETRO", "offset": -15 }
+				]
+			}
+		],
+		"events": [
+			{ "time": 0.2, "name": "respin-out", "int": 2 }
+		]
+	},
+	"TotalWin-Bonus/V_ToralWin-Bonus-loop": {
+		"slots": {
+			"additivo-box": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-box-total": {
+				"rgba": [
+					{ "color": "ffffffdc" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffffdc" }
+				]
+			},
+			"additivo-gioiello": {
+				"rgba": [
+					{ "color": "ffffff78" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff78" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-palletta": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo-totalwin": {
+				"rgba": [
+					{ "color": "ffffff96" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff96" }
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE-BIG2": {
+				"attachment": [
+					{}
+				]
+			},
+			"BAGLIORE RETRO": {
+				"rgba": [
+					{ "color": "ffffff64" },
+					{ "time": 0.3333, "color": "ffffff82" },
+					{ "time": 0.6667, "color": "ffffff64" }
+				]
+			},
+			"cerchio-fuoco-arancio": {
+				"attachment": [
+					{}
+				]
+			},
+			"dditivo-bg-box": {
+				"rgba": [
+					{ "color": "ffffff32" },
+					{ "time": 0.3333, "color": "ffffff78" },
+					{ "time": 0.6667, "color": "ffffff32" }
+				]
+			},
+			"gioiello": {
+				"attachment": [
+					{}
+				]
+			},
+			"LOGO-LOCK_SPIN": {
+				"attachment": [
+					{}
+				]
+			},
+			"PALLETTA": {
+				"attachment": [
+					{}
+				]
+			},
+			"particellare-thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto-luce-6": {
+				"attachment": [
+					{}
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"rettangolo": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina": {
+				"attachment": [
+					{}
+				]
+			},
+			"tendina-sn": {
+				"attachment": [
+					{}
+				]
+			},
+			"thunder": {
+				"attachment": [
+					{}
+				]
+			},
+			"tondo-fuoco": {
+				"rgba": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"v_rettangolo": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"BAGLIORE RETRO": {
+				"translate": [
+					{ "y": 330.38 }
+				],
+				"scale": [
+					{ "x": 0.333, "y": 0.267 }
+				]
+			},
+			"tondo-fuoco": {
+				"translate": [
+					{ "y": -12.06 }
+				]
+			},
+			"ALA3": {
+				"rotate": [
+					{
+						"curve": [ 0.111, 0, 0.222, -12 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -12,
+						"curve": [ 0.444, -12, 0.556, 0 ]
+					},
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.111, 1, 0.222, 0.96, 0.111, 1, 0.222, 0.894 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.96,
+						"y": 0.894,
+						"curve": [ 0.444, 0.96, 0.556, 1, 0.444, 0.894, 0.556, 1 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"PUNTO-LUCE-total10": {
+				"rotate": [
+					{ "value": 360 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "x": -13.64, "y": -34.57 }
+				],
+				"scale": [
+					{ "x": 0.769, "y": 0.667 }
+				]
+			},
+			"ALA4": {
+				"rotate": [
+					{
+						"curve": [ 0.111, 0, 0.222, 12.26 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 12.26,
+						"curve": [ 0.444, 12.26, 0.556, 0 ]
+					},
+					{ "time": 0.6667 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.077, 1, 0.208, 1, 0.077, 1, 0.208, 0.92 ]
+					},
+					{
+						"time": 0.3333,
+						"y": 0.92,
+						"curve": [ 0.481, 1, 0.622, 1, 0.481, 0.92, 0.622, 1 ]
+					},
+					{ "time": 0.6667 }
+				]
+			},
+			"PUNTO-LUCE-total11": {
+				"rotate": [
+					{ "value": 360 },
+					{ "time": 0.6667 }
+				],
+				"translate": [
+					{ "x": -3.41, "y": -25.47 }
+				],
+				"scale": [
+					{ "x": 0.769 }
+				]
+			},
+			"BOX-tatlwin": {
+				"translate": [
+					{ "y": -4.02 }
+				],
+				"scale": [
+					{ "x": 1.1, "y": 0.899 }
+				]
+			},
+			"scritta-TotalWin": {
+				"translate": [
+					{ "y": -27.02 }
+				],
+				"scale": [
+					{
+						"x": 0.861,
+						"y": 0.86,
+						"curve": [ 0.099, 0.861, 0.199, 0.971, 0.099, 0.86, 0.199, 0.959 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.971,
+						"y": 0.959,
+						"curve": [ 0.425, 0.971, 0.532, 0.861, 0.425, 0.959, 0.532, 0.86 ]
+					},
+					{ "time": 0.6667, "x": 0.861, "y": 0.86 }
+				]
+			},
+			"PUNTO-LUCE-total12": {
+				"rotate": [
+					{ "value": 360 }
+				],
+				"translate": [
+					{ "x": -339.06, "y": -144.02 }
+				],
+				"scale": [
+					{ "x": 0.769 }
+				]
+			},
+			"particellare-bagliore": {
+				"translate": [
+					{ "y": -80.81 }
+				],
+				"scale": [
+					{ "x": 0.674, "y": 0.319 }
+				]
+			},
+			"TOTALWIN-BONUS": {
+				"translate": [
+					{ "y": 29.59 }
+				],
+				"scale": [
+					{ "x": 0.65, "y": 0.69 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"particellare-bagliore": {
+					"PARTICELLARI/sun5/sun5_": {
+						"sequence": [
+							{ "mode": "loop", "index": 19, "delay": 0.0333 },
+							{ "time": 0.6667, "mode": "once", "index": 19, "delay": 0.025 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "BAGLIORE RETRO", "offset": -15 }
+				]
+			}
+		]
+	}
+}
+}

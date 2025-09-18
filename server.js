@@ -18,12 +18,13 @@ app.get("/list", (req, res) => {
   files.forEach((file) => {
     if (file.endsWith(".json")) {
       const name = path.basename(file, ".json");
-      const atlas = path.join(assetsDir, `${name}.atlas`);
+      const name2 = estraiPrimaDiUltimoTrattino(name);
+      const atlas = path.join(assetsDir, `${name2}.atlas`);
       if (fs.existsSync(atlas)) {
         result.push({
           name,
           skeleton: `assets/${name}.json`,
-          atlas: `assets/${name}.atlas`,
+          atlas: `assets/${name2}.atlas`,
         });
       }
     }
@@ -31,6 +32,13 @@ app.get("/list", (req, res) => {
 
   res.json(result);
 });
+function estraiPrimaDiUltimoTrattino(str) {
+  // Trova la posizione dell'ultimo trattino
+  const ultimoTrattino = str.lastIndexOf('-');
+  if (ultimoTrattino === -1) return str; // Nessun trattino trovato
+  // Prendi solo la parte prima dell'ultimo trattino
+  return str.substring(0, ultimoTrattino);
+}
 
 app.listen(PORT, () => {
   console.log(`✅ Server avviato su http://localhost:${PORT}`);

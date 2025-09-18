@@ -1,0 +1,1740 @@
+{
+"skeleton": {
+	"hash": "tG7Irt4Ni5Q",
+	"spine": "4.1-from-4.2.43",
+	"x": -248.88,
+	"y": -384.42,
+	"width": 498.72,
+	"height": 750.86,
+	"images": "./images/",
+	"audio": "/Users/elenaferrari/Documents/ONLINE/ARES-PC/SPINE"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.65 },
+	{ "name": "fruscio-giallo", "parent": "root", "scaleY": 1.138, "icon": "particles" },
+	{ "name": "fruscio-rosso", "parent": "root", "x": 5.68, "scaleX": 2.5681, "scaleY": 2.1608, "icon": "particles" },
+	{ "name": "decorazione-suspance", "parent": "root", "y": -338.15, "scaleX": 0.5, "scaleY": 0.5, "icon": "arrowDown" },
+	{
+		"name": "decorazione-suspance2",
+		"parent": "root",
+		"rotation": 180,
+		"y": 335.77,
+		"scaleX": 0.5,
+		"scaleY": 0.5,
+		"icon": "arrowUp"
+	},
+	{ "name": "SCINTILLE", "parent": "root", "y": -323.05, "scaleX": 1.1547, "scaleY": 1.4811 },
+	{ "name": "punto luce", "parent": "root", "y": -363.98, "scaleX": 0.3, "scaleY": 0.3 },
+	{ "name": "punto luce2", "parent": "root", "y": 239.24, "scaleX": 0.2, "scaleY": 0.2 },
+	{ "name": "punto luce3", "parent": "root", "y": -363.98, "scaleX": 0.1, "scaleY": 0.1 },
+	{ "name": "punto luce4", "parent": "root", "y": -363.98, "scaleX": 0.3, "scaleY": 0.3 },
+	{ "name": "punto luce5", "parent": "root", "y": -363.98, "scaleX": 0.2, "scaleY": 0.2 },
+	{ "name": "punto luce6", "parent": "root", "y": -363.98, "scaleX": 0.1, "scaleY": 0.1 },
+	{
+		"name": "bagliore_cometa",
+		"parent": "root",
+		"rotation": 90,
+		"x": -45.53,
+		"y": -408.08,
+		"scaleX": 0.02,
+		"scaleY": 1.2
+	},
+	{
+		"name": "bagliore_cometa2",
+		"parent": "root",
+		"rotation": 90,
+		"x": 43.86,
+		"y": -408.08,
+		"scaleX": 0.02,
+		"scaleY": 1.2
+	},
+	{ "name": "SCINTILLE2", "parent": "root", "y": -323.05, "scaleX": 1.1547, "scaleY": 1.4811 },
+	{ "name": "SCINTILLE3", "parent": "root", "y": -323.05, "scaleX": 1.1547, "scaleY": 1.4811 },
+	{ "name": "sun", "parent": "root", "y": -388.9, "scaleX": 1.732, "scaleY": 1.6435 },
+	{ "name": "maschera-rullo", "parent": "root", "x": 0.82, "y": -1.2 },
+	{
+		"name": "scia-fuoco",
+		"parent": "root",
+		"x": -78.27,
+		"y": -22.49,
+		"scaleX": 0.85,
+		"scaleY": 1.05,
+		"color": "fdd601ff",
+		"icon": "particles"
+	},
+	{
+		"name": "scia-fuoco2",
+		"parent": "root",
+		"x": 69.3,
+		"y": -25.77,
+		"scaleX": 0.85,
+		"scaleY": 1.05,
+		"color": "fdd601ff",
+		"icon": "particles"
+	}
+],
+"slots": [
+	{ "name": "maschera-rullo", "bone": "maschera-rullo", "attachment": "maschera-rullo" },
+	{ "name": "frame-suspance", "bone": "root", "attachment": "FRAME/frame-suspance" },
+	{ "name": "rettangolo-1", "bone": "root", "color": "ffffff81", "attachment": "ELEMENTI-COMUNI/rettangolo-1", "blend": "additive" },
+	{ "name": "bagliore_cometa", "bone": "bagliore_cometa", "attachment": "ELEMENTI-COMUNI/bagliore_cometa", "blend": "additive" },
+	{ "name": "bagliore_cometa2", "bone": "bagliore_cometa2", "attachment": "ELEMENTI-COMUNI/bagliore_cometa", "blend": "additive" },
+	{ "name": "fruscio-giallo", "bone": "fruscio-giallo", "attachment": "PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-", "blend": "additive" },
+	{ "name": "fruscio-rosso", "bone": "fruscio-rosso", "attachment": "PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_", "blend": "additive" },
+	{ "name": "decorazione-suspance", "bone": "decorazione-suspance", "attachment": "FRAME/decorazione-suspance" },
+	{ "name": "decorazione-suspance2", "bone": "decorazione-suspance2", "attachment": "FRAME/decorazione-suspance" },
+	{ "name": "additivo", "bone": "decorazione-suspance", "color": "ffffff64", "attachment": "FRAME/decorazione-suspance", "blend": "additive" },
+	{ "name": "additivo2", "bone": "decorazione-suspance2", "color": "ffffffc7", "attachment": "FRAME/decorazione-suspance", "blend": "additive" },
+	{ "name": "sun", "bone": "sun", "attachment": "PARTICELLARI/sun5/sun5_0000", "blend": "additive" },
+	{ "name": "sun2", "bone": "sun", "attachment": "PARTICELLARI/sun5/sun5_0000", "blend": "additive" },
+	{ "name": "frame-lunimoso-suspance", "bone": "root", "attachment": "FRAME/frame-lunimoso-suspance", "blend": "additive" },
+	{ "name": "SCINTILLE", "bone": "SCINTILLE", "attachment": "PARTICELLARI/SCINTILLE/scintille_stage_0040", "blend": "additive" },
+	{ "name": "SCINTILLE2", "bone": "SCINTILLE2", "attachment": "PARTICELLARI/SCINTILLE/scintille_stage_0040", "blend": "additive" },
+	{ "name": "SCINTILLE3", "bone": "SCINTILLE3", "attachment": "PARTICELLARI/SCINTILLE/scintille_stage_0040", "blend": "additive" },
+	{ "name": "punto luce", "bone": "punto luce", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto luce3", "bone": "punto luce3", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto luce5", "bone": "punto luce5", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto luce2", "bone": "punto luce2", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto luce4", "bone": "punto luce4", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "punto luce6", "bone": "punto luce6", "attachment": "ELEMENTI-COMUNI/punto-luce", "blend": "additive" },
+	{ "name": "scia-fuoco", "bone": "scia-fuoco", "attachment": "PARTICELLARI/scia-bonus-1/scia-bonus-1_", "blend": "additive" },
+	{ "name": "scia-fuoco2", "bone": "scia-fuoco2", "attachment": "PARTICELLARI/scia-bonus-1/scia-bonus-1_", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"additivo": {
+				"FRAME/decorazione-suspance": { "width": 406, "height": 247 }
+			},
+			"additivo2": {
+				"FRAME/decorazione-suspance": { "width": 406, "height": 247 }
+			},
+			"bagliore_cometa": {
+				"ELEMENTI-COMUNI/bagliore_cometa": { "x": 344.37, "width": 900, "height": 180 }
+			},
+			"bagliore_cometa2": {
+				"ELEMENTI-COMUNI/bagliore_cometa": { "x": 344.37, "width": 900, "height": 180 }
+			},
+			"decorazione-suspance": {
+				"FRAME/decorazione-suspance": { "width": 406, "height": 247 }
+			},
+			"decorazione-suspance2": {
+				"FRAME/decorazione-suspance": { "width": 406, "height": 247 }
+			},
+			"frame-lunimoso-suspance": {
+				"FRAME/frame-lunimoso-suspance": { "width": 320, "height": 920 }
+			},
+			"frame-suspance": {
+				"FRAME/frame-suspance": { "width": 200, "height": 800 }
+			},
+			"fruscio-giallo": {
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-": {
+					"x": 9.94,
+					"scaleX": 1.1,
+					"width": 219,
+					"height": 667,
+					"sequence": { "count": 24, "digits": 1 }
+				},
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-2": { "width": 219, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-3": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-4": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-5": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-6": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-7": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-8": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-9": { "width": 217, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-10": { "width": 219, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-11": { "width": 217, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-12": { "width": 219, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-13": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-14": { "width": 217, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-15": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-16": { "width": 219, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-17": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-18": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-19": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-20": { "width": 219, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-21": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-22": { "width": 221, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-23": { "width": 219, "height": 667 },
+				"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-24": { "width": 219, "height": 667 }
+			},
+			"fruscio-rosso": {
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_": {
+					"width": 100,
+					"height": 360,
+					"sequence": { "count": 24, "start": 0, "digits": 3 }
+				},
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_001": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_002": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_003": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_004": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_005": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_006": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_007": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_008": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_009": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_010": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_011": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_012": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_013": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_014": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_015": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_016": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_017": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_018": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_019": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_020": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_021": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_022": { "width": 100, "height": 360 },
+				"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_023": { "width": 100, "height": 360 }
+			},
+			"maschera-rullo": {
+				"maschera-rullo": {
+					"type": "clipping",
+					"end": "sun2",
+					"vertexCount": 4,
+					"vertices": [ -97.51, 398.08, 95.6, 396.74, 98.28, -395.82, -96.17, -397.16 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"punto luce": {
+				"ELEMENTI-COMUNI/punto-luce": { "y": 2.78, "scaleY": 1.5, "width": 112, "height": 112 }
+			},
+			"punto luce2": {
+				"ELEMENTI-COMUNI/punto-luce": { "y": 2.78, "scaleY": 1.5, "width": 112, "height": 112 }
+			},
+			"punto luce3": {
+				"ELEMENTI-COMUNI/punto-luce": { "y": 2.78, "scaleY": 1.5, "width": 112, "height": 112 }
+			},
+			"punto luce4": {
+				"ELEMENTI-COMUNI/punto-luce": { "y": 2.78, "scaleY": 1.5, "width": 112, "height": 112 }
+			},
+			"punto luce5": {
+				"ELEMENTI-COMUNI/punto-luce": { "y": 2.78, "scaleY": 1.5, "width": 112, "height": 112 }
+			},
+			"punto luce6": {
+				"ELEMENTI-COMUNI/punto-luce": { "y": 2.78, "scaleY": 1.5, "width": 112, "height": 112 }
+			},
+			"rettangolo-1": {
+				"ELEMENTI-COMUNI/rettangolo-1": { "scaleX": 1.085, "scaleY": 5.0361, "width": 308, "height": 260 }
+			},
+			"scia-fuoco": {
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_": {
+					"x": -23.92,
+					"y": 8.18,
+					"width": 500,
+					"height": 1100,
+					"sequence": { "count": 22, "start": 0, "digits": 2 }
+				},
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_01": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_02": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_03": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_04": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_05": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_06": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_07": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_08": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_09": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_10": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_11": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_12": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_13": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_14": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_15": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_16": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_17": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_18": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_19": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_20": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_21": { "x": -384.76, "y": 13.5, "scaleX": 0.7, "width": 500, "height": 1100 }
+			},
+			"scia-fuoco2": {
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_": {
+					"x": 35.88,
+					"y": 11.45,
+					"width": 500,
+					"height": 1100,
+					"sequence": { "count": 22, "start": 0, "digits": 2 }
+				},
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_01": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_02": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_03": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_04": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_05": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_06": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_07": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_08": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_09": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_10": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_11": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_12": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_13": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_14": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_15": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_16": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_17": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_18": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_19": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_20": { "width": 500, "height": 1100 },
+				"PARTICELLARI/scia-bonus-1/scia-bonus-1_21": { "x": -384.76, "y": 13.5, "scaleX": 0.7, "width": 500, "height": 1100 }
+			},
+			"SCINTILLE": {
+				"PARTICELLARI/SCINTILLE/scintille_stage_": {
+					"y": 249.16,
+					"width": 320,
+					"height": 512,
+					"sequence": { "count": 40, "digits": 4 }
+				},
+				"PARTICELLARI/SCINTILLE/scintille_stage_0002": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0003": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0004": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0005": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0006": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0007": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0008": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0009": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0010": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0011": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0012": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0013": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0014": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0015": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0016": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0017": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0018": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0019": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0020": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0021": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0022": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0023": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0024": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0025": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0026": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0027": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0028": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0029": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0030": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0031": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0032": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0033": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0034": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0035": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0036": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0037": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0038": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0039": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0040": { "y": 249.16, "width": 320, "height": 512 }
+			},
+			"SCINTILLE2": {
+				"PARTICELLARI/SCINTILLE/scintille_stage_": {
+					"y": 249.16,
+					"width": 320,
+					"height": 512,
+					"sequence": { "count": 40, "digits": 4 }
+				},
+				"PARTICELLARI/SCINTILLE/scintille_stage_0002": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0003": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0004": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0005": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0006": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0007": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0008": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0009": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0010": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0011": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0012": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0013": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0014": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0015": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0016": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0017": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0018": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0019": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0020": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0021": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0022": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0023": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0024": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0025": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0026": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0027": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0028": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0029": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0030": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0031": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0032": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0033": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0034": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0035": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0036": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0037": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0038": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0039": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0040": { "y": 249.16, "width": 320, "height": 512 }
+			},
+			"SCINTILLE3": {
+				"PARTICELLARI/SCINTILLE/scintille_stage_": {
+					"y": 249.16,
+					"width": 320,
+					"height": 512,
+					"sequence": { "count": 40, "digits": 4 }
+				},
+				"PARTICELLARI/SCINTILLE/scintille_stage_0002": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0003": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0004": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0005": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0006": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0007": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0008": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0009": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0010": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0011": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0012": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0013": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0014": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0015": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0016": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0017": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0018": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0019": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0020": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0021": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0022": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0023": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0024": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0025": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0026": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0027": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0028": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0029": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0030": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0031": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0032": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0033": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0034": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0035": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0036": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0037": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0038": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0039": { "y": 249.16, "width": 320, "height": 512 },
+				"PARTICELLARI/SCINTILLE/scintille_stage_0040": { "y": 249.16, "width": 320, "height": 512 }
+			},
+			"sun": {
+				"PARTICELLARI/sun5/sun5_0000": { "y": 28.56, "width": 300, "height": 300 }
+			},
+			"sun2": {
+				"PARTICELLARI/sun5/sun5_0000": { "x": 2.32, "y": 464.27, "width": 300, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"dummy": {
+		"slots": {
+			"additivo": {
+				"attachment": [
+					{}
+				]
+			},
+			"additivo2": {
+				"attachment": [
+					{}
+				]
+			},
+			"bagliore_cometa": {
+				"attachment": [
+					{}
+				]
+			},
+			"bagliore_cometa2": {
+				"attachment": [
+					{}
+				]
+			},
+			"decorazione-suspance": {
+				"attachment": [
+					{}
+				]
+			},
+			"decorazione-suspance2": {
+				"attachment": [
+					{}
+				]
+			},
+			"frame-lunimoso-suspance": {
+				"attachment": [
+					{}
+				]
+			},
+			"frame-suspance": {
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-giallo": {
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-rosso": {
+				"attachment": [
+					{}
+				]
+			},
+			"maschera-rullo": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto luce": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto luce2": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto luce3": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto luce4": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto luce5": {
+				"attachment": [
+					{}
+				]
+			},
+			"punto luce6": {
+				"attachment": [
+					{}
+				]
+			},
+			"rettangolo-1": {
+				"attachment": [
+					{}
+				]
+			},
+			"SCINTILLE": {
+				"attachment": [
+					{}
+				]
+			},
+			"SCINTILLE2": {
+				"attachment": [
+					{}
+				]
+			},
+			"SCINTILLE3": {
+				"attachment": [
+					{}
+				]
+			},
+			"sun": {
+				"attachment": [
+					{}
+				]
+			},
+			"sun2": {
+				"attachment": [
+					{}
+				]
+			}
+		}
+	},
+	"suspense-reels": {
+		"slots": {
+			"additivo": {
+				"rgba": [
+					{ "color": "fdfefdff" }
+				]
+			},
+			"additivo2": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"bagliore_cometa": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"bagliore_cometa2": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-giallo": {
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-rosso": {
+				"rgba": [
+					{ "color": "ffffff64" }
+				]
+			},
+			"punto luce": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce2": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce3": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce4": {
+				"rgba": [
+					{ "color": "ffffffc8" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce5": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce6": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"rettangolo-1": {
+				"attachment": [
+					{}
+				]
+			},
+			"scia-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"scia-fuoco2": {
+				"attachment": [
+					{}
+				]
+			},
+			"SCINTILLE": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffffc8" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffc8" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			}
+		},
+		"bones": {
+			"decorazione-suspance": {
+				"translate": [
+					{ "y": 3.74 }
+				]
+			},
+			"decorazione-suspance2": {
+				"translate": [
+					{ "y": 1.65 }
+				]
+			},
+			"SCINTILLE": {
+				"translate": [
+					{ "y": 29.21 },
+					{ "time": 0.5, "y": 199.91 }
+				]
+			},
+			"punto luce4": {
+				"translate": [
+					{ "time": 0.3333, "x": -12.07, "y": 28.16 },
+					{ "time": 1, "x": -38.89, "y": 201.16 }
+				]
+			},
+			"punto luce3": {
+				"translate": [
+					{ "x": 28.61, "y": 16.09 },
+					{ "time": 0.8333, "x": 28.61, "y": 269.55 }
+				]
+			},
+			"punto luce": {
+				"translate": [
+					{ "x": 64, "y": -8.05 },
+					{ "time": 0.3333, "x": 45.23, "y": 92.08 },
+					{ "time": 1, "x": 64, "y": 282.96 }
+				]
+			},
+			"punto luce2": {
+				"translate": [
+					{ "y": -552.51 },
+					{ "time": 0.5, "x": -28.16, "y": -470.03 },
+					{ "time": 1, "y": -387.56 }
+				]
+			},
+			"punto luce5": {
+				"translate": [
+					{ "x": -71.97, "y": -16.09 },
+					{ "time": 0.5, "x": -71.97, "y": 97.9 },
+					{ "time": 1, "x": -73.31, "y": 245.41 }
+				]
+			},
+			"punto luce6": {
+				"translate": [
+					{ "x": -32.18, "y": 9.39 },
+					{ "time": 0.8333, "x": -32.18, "y": 322.74 },
+					{ "time": 1, "x": -32.18, "y": 325.87 }
+				]
+			},
+			"bagliore_cometa": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 1.1 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				]
+			},
+			"bagliore_cometa2": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 0.833 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				],
+				"shear": [
+					{ "y": 180 }
+				]
+			},
+			"SCINTILLE2": {
+				"translate": [
+					{ "y": 6.41 }
+				],
+				"scale": [
+					{ "x": 0.866, "y": 0.81 }
+				]
+			},
+			"SCINTILLE3": {
+				"translate": [
+					{ "y": 14.46 }
+				],
+				"scale": [
+					{ "x": 0.953, "y": 0.81 }
+				],
+				"shear": [
+					{ "y": 90 }
+				]
+			},
+			"sun": {
+				"translate": [
+					{ "y": 1.34 }
+				],
+				"scale": [
+					{ "x": 0.734 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fruscio-giallo": {
+					"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0833 },
+							{ "time": 1, "index": 9 }
+						]
+					}
+				},
+				"fruscio-rosso": {
+					"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0833 }
+						]
+					}
+				},
+				"SCINTILLE": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE2": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE3": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"suspense-reels_fuoco": {
+		"slots": {
+			"additivo": {
+				"rgba": [
+					{ "color": "fdfefdff" }
+				]
+			},
+			"additivo2": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"bagliore_cometa": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"bagliore_cometa2": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-giallo": {
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-rosso": {
+				"rgba": [
+					{ "color": "ffffff64" }
+				]
+			},
+			"punto luce": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce2": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce3": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce4": {
+				"rgba": [
+					{ "color": "ffffffc8" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce5": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce6": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"rettangolo-1": {
+				"attachment": [
+					{}
+				]
+			},
+			"scia-fuoco": {
+				"rgba": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"scia-fuoco2": {
+				"rgba": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"SCINTILLE": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffffc8" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffc8" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			}
+		},
+		"bones": {
+			"decorazione-suspance": {
+				"translate": [
+					{ "y": 3.74 }
+				]
+			},
+			"decorazione-suspance2": {
+				"translate": [
+					{ "y": 1.65 }
+				]
+			},
+			"SCINTILLE": {
+				"translate": [
+					{ "y": 29.21 },
+					{ "time": 0.5, "y": 199.91 }
+				]
+			},
+			"punto luce4": {
+				"translate": [
+					{ "time": 0.3333, "x": -12.07, "y": 28.16 },
+					{ "time": 1, "x": -38.89, "y": 201.16 }
+				]
+			},
+			"punto luce3": {
+				"translate": [
+					{ "x": 28.61, "y": 16.09 },
+					{ "time": 0.8333, "x": 28.61, "y": 269.55 }
+				]
+			},
+			"punto luce": {
+				"translate": [
+					{ "x": 64, "y": -8.05 },
+					{ "time": 0.3333, "x": 45.23, "y": 92.08 },
+					{ "time": 1, "x": 64, "y": 282.96 }
+				]
+			},
+			"punto luce2": {
+				"translate": [
+					{ "y": -552.51 },
+					{ "time": 0.5, "x": -28.16, "y": -470.03 },
+					{ "time": 1, "y": -387.56 }
+				]
+			},
+			"punto luce5": {
+				"translate": [
+					{ "x": -71.97, "y": -16.09 },
+					{ "time": 0.5, "x": -71.97, "y": 97.9 },
+					{ "time": 1, "x": -73.31, "y": 245.41 }
+				]
+			},
+			"punto luce6": {
+				"translate": [
+					{ "x": -32.18, "y": 9.39 },
+					{ "time": 0.8333, "x": -32.18, "y": 322.74 },
+					{ "time": 1, "x": -32.18, "y": 325.87 }
+				]
+			},
+			"bagliore_cometa": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 1.1 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				]
+			},
+			"bagliore_cometa2": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 0.833 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				],
+				"shear": [
+					{ "y": 180 }
+				]
+			},
+			"SCINTILLE2": {
+				"translate": [
+					{ "y": 6.41 }
+				],
+				"scale": [
+					{ "x": 0.866, "y": 0.81 }
+				]
+			},
+			"SCINTILLE3": {
+				"translate": [
+					{ "y": 14.46 }
+				],
+				"scale": [
+					{ "x": 0.953, "y": 0.81 }
+				],
+				"shear": [
+					{ "y": 90 }
+				]
+			},
+			"sun": {
+				"translate": [
+					{ "y": 1.34 }
+				],
+				"scale": [
+					{ "x": 0.734 }
+				]
+			},
+			"scia-fuoco": {
+				"scale": [
+					{ "x": 0.673 }
+				]
+			},
+			"scia-fuoco2": {
+				"translate": [
+					{ "x": 9.07 }
+				],
+				"scale": [
+					{ "x": 0.673 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fruscio-rosso": {
+					"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0833 }
+						]
+					}
+				},
+				"scia-fuoco": {
+					"PARTICELLARI/scia-bonus-1/scia-bonus-1_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.05 },
+							{ "time": 1, "index": 20 }
+						]
+					}
+				},
+				"scia-fuoco2": {
+					"PARTICELLARI/scia-bonus-1/scia-bonus-1_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.05 },
+							{ "time": 1, "index": 20 }
+						]
+					}
+				},
+				"SCINTILLE": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE2": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE3": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "bagliore_cometa", "offset": 9 },
+					{ "slot": "fruscio-giallo", "offset": 0 },
+					{ "slot": "additivo", "offset": 7 }
+				]
+			}
+		]
+	},
+	"V_suspense-reels": {
+		"slots": {
+			"additivo": {
+				"rgba": [
+					{ "color": "fdfefdff" }
+				]
+			},
+			"additivo2": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"bagliore_cometa": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"bagliore_cometa2": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-giallo": {
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-rosso": {
+				"rgba": [
+					{ "color": "ffffff64" }
+				]
+			},
+			"punto luce": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce2": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce3": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce4": {
+				"rgba": [
+					{ "color": "ffffffc8" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce5": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce6": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"rettangolo-1": {
+				"attachment": [
+					{}
+				]
+			},
+			"scia-fuoco": {
+				"attachment": [
+					{}
+				]
+			},
+			"scia-fuoco2": {
+				"attachment": [
+					{}
+				]
+			},
+			"SCINTILLE": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffffc8" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffc8" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			}
+		},
+		"bones": {
+			"decorazione-suspance": {
+				"translate": [
+					{ "y": 3.74 }
+				]
+			},
+			"decorazione-suspance2": {
+				"translate": [
+					{ "y": 1.65 }
+				]
+			},
+			"SCINTILLE": {
+				"translate": [
+					{ "y": 29.21 },
+					{ "time": 0.5, "y": 199.91 }
+				]
+			},
+			"punto luce4": {
+				"translate": [
+					{ "time": 0.3333, "x": -12.07, "y": 28.16 },
+					{ "time": 1, "x": -38.89, "y": 201.16 }
+				]
+			},
+			"punto luce3": {
+				"translate": [
+					{ "x": 28.61, "y": 16.09 },
+					{ "time": 0.8333, "x": 28.61, "y": 269.55 }
+				]
+			},
+			"punto luce": {
+				"translate": [
+					{ "x": 64, "y": -8.05 },
+					{ "time": 0.3333, "x": 45.23, "y": 92.08 },
+					{ "time": 1, "x": 64, "y": 282.96 }
+				]
+			},
+			"punto luce2": {
+				"translate": [
+					{ "y": -552.51 },
+					{ "time": 0.5, "x": -28.16, "y": -470.03 },
+					{ "time": 1, "y": -387.56 }
+				]
+			},
+			"punto luce5": {
+				"translate": [
+					{ "x": -71.97, "y": -16.09 },
+					{ "time": 0.5, "x": -71.97, "y": 97.9 },
+					{ "time": 1, "x": -73.31, "y": 245.41 }
+				]
+			},
+			"punto luce6": {
+				"translate": [
+					{ "x": -32.18, "y": 9.39 },
+					{ "time": 0.8333, "x": -32.18, "y": 322.74 },
+					{ "time": 1, "x": -32.18, "y": 325.87 }
+				]
+			},
+			"bagliore_cometa": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 1.1 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				]
+			},
+			"bagliore_cometa2": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 0.833 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				],
+				"shear": [
+					{ "y": 180 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "x": 0.863, "y": 0.862 }
+				]
+			},
+			"SCINTILLE2": {
+				"translate": [
+					{ "y": 6.41 }
+				],
+				"scale": [
+					{ "x": 0.866, "y": 0.81 }
+				]
+			},
+			"SCINTILLE3": {
+				"translate": [
+					{ "y": 14.46 }
+				],
+				"scale": [
+					{ "x": 0.953, "y": 0.81 }
+				],
+				"shear": [
+					{ "y": 90 }
+				]
+			},
+			"sun": {
+				"translate": [
+					{ "y": 1.34 }
+				],
+				"scale": [
+					{ "x": 0.734 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fruscio-giallo": {
+					"PARTICELLARI/FRUSCIO-GIALLO/FRUSCIO-": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0833 },
+							{ "time": 1, "index": 9 }
+						]
+					}
+				},
+				"fruscio-rosso": {
+					"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0833 }
+						]
+					}
+				},
+				"SCINTILLE": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE2": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE3": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"V_suspense-reels_fuoco": {
+		"slots": {
+			"additivo": {
+				"rgba": [
+					{ "color": "fdfefdff" }
+				]
+			},
+			"additivo2": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"bagliore_cometa": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"bagliore_cometa2": {
+				"rgba": [
+					{ "color": "ffffffb4" }
+				],
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-giallo": {
+				"attachment": [
+					{}
+				]
+			},
+			"fruscio-rosso": {
+				"rgba": [
+					{ "color": "ffffff64" }
+				]
+			},
+			"punto luce": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce2": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce3": {
+				"rgba": [
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce4": {
+				"rgba": [
+					{ "color": "ffffffc8" },
+					{ "time": 0.9, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce5": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"punto luce6": {
+				"rgba": [
+					{ "color": "ffffff96", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff96" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"rettangolo-1": {
+				"attachment": [
+					{}
+				]
+			},
+			"scia-fuoco": {
+				"rgba": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"scia-fuoco2": {
+				"rgba": [
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"SCINTILLE": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffffc8" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffffb4" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			},
+			"SCINTILLE3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffc8" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "PARTICELLARI/SCINTILLE/scintille_stage_" }
+				]
+			}
+		},
+		"bones": {
+			"decorazione-suspance": {
+				"translate": [
+					{ "y": 3.74 }
+				]
+			},
+			"decorazione-suspance2": {
+				"translate": [
+					{ "y": 1.65 }
+				]
+			},
+			"SCINTILLE": {
+				"translate": [
+					{ "y": 29.21 },
+					{ "time": 0.5, "y": 199.91 }
+				]
+			},
+			"punto luce4": {
+				"translate": [
+					{ "time": 0.3333, "x": -12.07, "y": 28.16 },
+					{ "time": 1, "x": -38.89, "y": 201.16 }
+				]
+			},
+			"punto luce3": {
+				"translate": [
+					{ "x": 28.61, "y": 16.09 },
+					{ "time": 0.8333, "x": 28.61, "y": 269.55 }
+				]
+			},
+			"punto luce": {
+				"translate": [
+					{ "x": 64, "y": -8.05 },
+					{ "time": 0.3333, "x": 45.23, "y": 92.08 },
+					{ "time": 1, "x": 64, "y": 282.96 }
+				]
+			},
+			"punto luce2": {
+				"translate": [
+					{ "y": -552.51 },
+					{ "time": 0.5, "x": -28.16, "y": -470.03 },
+					{ "time": 1, "y": -387.56 }
+				]
+			},
+			"punto luce5": {
+				"translate": [
+					{ "x": -71.97, "y": -16.09 },
+					{ "time": 0.5, "x": -71.97, "y": 97.9 },
+					{ "time": 1, "x": -73.31, "y": 245.41 }
+				]
+			},
+			"punto luce6": {
+				"translate": [
+					{ "x": -32.18, "y": 9.39 },
+					{ "time": 0.8333, "x": -32.18, "y": 322.74 },
+					{ "time": 1, "x": -32.18, "y": 325.87 }
+				]
+			},
+			"bagliore_cometa": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 1.1 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				]
+			},
+			"bagliore_cometa2": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1, "y": 208.03 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.6667, "x": 50, "y": 0.833 },
+					{ "time": 1, "x": 67.515, "y": 1.1 }
+				],
+				"shear": [
+					{ "y": 180 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "x": 0.863, "y": 0.862 }
+				]
+			},
+			"SCINTILLE2": {
+				"translate": [
+					{ "y": 6.41 }
+				],
+				"scale": [
+					{ "x": 0.866, "y": 0.81 }
+				]
+			},
+			"SCINTILLE3": {
+				"translate": [
+					{ "y": 14.46 }
+				],
+				"scale": [
+					{ "x": 0.953, "y": 0.81 }
+				],
+				"shear": [
+					{ "y": 90 }
+				]
+			},
+			"sun": {
+				"translate": [
+					{ "y": 1.34 }
+				],
+				"scale": [
+					{ "x": 0.734 }
+				]
+			},
+			"scia-fuoco": {
+				"scale": [
+					{ "x": 0.673 }
+				]
+			},
+			"scia-fuoco2": {
+				"translate": [
+					{ "x": 9.07 }
+				],
+				"scale": [
+					{ "x": 0.673 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"fruscio-rosso": {
+					"PARTICELLARI/FRUSCIO-ROSSO/anticipation_reel_spin_fx_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0833 }
+						]
+					}
+				},
+				"scia-fuoco": {
+					"PARTICELLARI/scia-bonus-1/scia-bonus-1_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.05 },
+							{ "time": 1, "index": 20 }
+						]
+					}
+				},
+				"scia-fuoco2": {
+					"PARTICELLARI/scia-bonus-1/scia-bonus-1_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.05 },
+							{ "time": 1, "index": 20 }
+						]
+					}
+				},
+				"SCINTILLE": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE2": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				},
+				"SCINTILLE3": {
+					"PARTICELLARI/SCINTILLE/scintille_stage_": {
+						"sequence": [
+							{ "mode": "pingpong", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "bagliore_cometa", "offset": 9 },
+					{ "slot": "fruscio-giallo", "offset": 0 },
+					{ "slot": "additivo", "offset": 7 }
+				]
+			}
+		]
+	}
+}
+}
